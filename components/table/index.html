@@ -915,20 +915,20 @@ var columns = [{
       React.createElement(
         'a',
         { href: '#' },
-        '操作一',
+        '\u64CD\u4F5C\u4E00',
         record.name
       ),
       React.createElement('span', { className: 'ant-divider' }),
       React.createElement(
         'a',
         { href: '#' },
-        '操作二'
+        '\u64CD\u4F5C\u4E8C'
       ),
       React.createElement('span', { className: 'ant-divider' }),
       React.createElement(
         'a',
         { href: '#', className: 'ant-dropdown-link' },
-        '更多 ',
+        '\u66F4\u591A ',
         React.createElement(_antd.Icon, { type: 'down' })
       )
     );
@@ -1149,9 +1149,9 @@ var data = [];
 for (var i = 0; i < 46; i++) {
   data.push({
     key: i,
-    name: '李大嘴' + i,
+    name: '\u674E\u5927\u5634' + i,
     age: 32,
-    address: '西湖区湖底公园' + i + '号'
+    address: '\u897F\u6E56\u533A\u6E56\u5E95\u516C\u56ED' + i + '\u53F7'
   });
 }
 
@@ -1180,9 +1180,9 @@ var App = React.createClass({
     this.setState({ selectedRowKeys: selectedRowKeys });
   },
   render: function render() {
-    var _state = this.state;
-    var loading = _state.loading;
-    var selectedRowKeys = _state.selectedRowKeys;
+    var _state = this.state,
+        loading = _state.loading,
+        selectedRowKeys = _state.selectedRowKeys;
 
     var rowSelection = {
       selectedRowKeys: selectedRowKeys,
@@ -1199,12 +1199,12 @@ var App = React.createClass({
           _antd.Button,
           { type: 'primary', onClick: this.start,
             disabled: !hasSelected, loading: loading },
-          '操作'
+          '\u64CD\u4F5C'
         ),
         React.createElement(
           'span',
           { style: { marginLeft: 8 } },
-          hasSelected ? '选择了 ' + selectedRowKeys.length + ' 个对象' : ''
+          hasSelected ? '\u9009\u62E9\u4E86 ' + selectedRowKeys.length + ' \u4E2A\u5BF9\u8C61' : ''
         )
       ),
       React.createElement(_antd.Table, { rowSelection: rowSelection, columns: columns, dataSource: data })
@@ -1419,9 +1419,9 @@ var data = [];
 for (var i = 0; i < 46; i++) {
   data.push({
     key: i,
-    name: '李大嘴' + i,
+    name: '\u674E\u5927\u5634' + i,
     age: 32,
-    address: '西湖区湖底公园' + i + '号'
+    address: '\u897F\u6E56\u533A\u6E56\u5E95\u516C\u56ED' + i + '\u53F7'
   });
 }
 
@@ -1711,7 +1711,7 @@ var Test = React.createClass({
   fetch: function fetch() {
     var _this = this;
 
-    var params = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+    var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
 
     console.log('请求参数：', params);
     this.setState({ loading: true });
@@ -1950,13 +1950,13 @@ ReactDOM.render(React.createElement(
   React.createElement(
     'h4',
     null,
-    '中号表格（紧凑型）'
+    '\u4E2D\u53F7\u8868\u683C\uFF08\u7D27\u51D1\u578B\uFF09'
   ),
   React.createElement(_antd.Table, { columns: columns, dataSource: data, size: 'middle' }),
   React.createElement(
     'h4',
     null,
-    '小号表格'
+    '\u5C0F\u53F7\u8868\u683C'
   ),
   React.createElement(_antd.Table, { columns: columns, dataSource: data, size: 'small' })
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Table } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
@@ -2111,7 +2111,7 @@ var columns = [{ title: '姓名', dataIndex: 'name', key: 'name' }, { title: '�
     return React.createElement(
       'a',
       { href: '#' },
-      '删除'
+      '\u5220\u9664'
     );
   } }];
 
@@ -2449,7 +2449,7 @@ var App = React.createClass({
       React.createElement(
         _antd.Button,
         { type: 'primary', onClick: this.toggleLoading },
-        '切换 loading 状态'
+        '\u5207\u6362 loading \u72B6\u6001'
       )
     );
   }
@@ -2541,9 +2541,9 @@ var data = [];
 for (var i = 0; i < 100; i++) {
   data.push({
     key: i,
-    name: '李大嘴' + i,
+    name: '\u674E\u5927\u5634' + i,
     age: 32,
-    address: '西湖区湖底公园' + i + '号'
+    address: '\u897F\u6E56\u533A\u6E56\u5E95\u516C\u56ED' + i + '\u53F7'
   });
 }
 
@@ -2601,7 +2601,7 @@ var columns = [{ title: '姓名', dataIndex: 'name', key: 'name' }, { title: '�
     return React.createElement(
       'a',
       { href: '#' },
-      '操作'
+      '\u64CD\u4F5C'
     );
   }
 }];

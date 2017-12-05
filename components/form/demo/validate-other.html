@@ -96,123 +96,123 @@ var Demo = React.createClass({
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '国籍：' }),
+          label: '\u56FD\u7C4D\uFF1A' }),
         React.createElement(
           _antd.Select,
-          _extends({}, selectProps, { placeholder: '请选择国家', style: { width: '100%' } }),
+          _extends({}, selectProps, { placeholder: '\u8BF7\u9009\u62E9\u56FD\u5BB6', style: { width: '100%' } }),
           React.createElement(
             Option,
             { value: 'china' },
-            '中国'
+            '\u4E2D\u56FD'
           ),
           React.createElement(
             Option,
             { value: 'use' },
-            '美国'
+            '\u7F8E\u56FD'
           ),
           React.createElement(
             Option,
             { value: 'japan' },
-            '日本'
+            '\u65E5\u672C'
           ),
           React.createElement(
             Option,
             { value: 'korean' },
-            '韩国'
+            '\u97E9\u56FD'
           ),
           React.createElement(
             Option,
             { value: 'Thailand' },
-            '泰国'
+            '\u6CF0\u56FD'
           )
         )
       ),
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '喜欢的颜色：' }),
+          label: '\u559C\u6B22\u7684\u989C\u8272\uFF1A' }),
         React.createElement(
           _antd.Select,
-          _extends({}, multiSelectProps, { multiple: true, placeholder: '请选择颜色', style: { width: '100%' } }),
+          _extends({}, multiSelectProps, { multiple: true, placeholder: '\u8BF7\u9009\u62E9\u989C\u8272', style: { width: '100%' } }),
           React.createElement(
             Option,
             { value: 'red' },
-            '红色'
+            '\u7EA2\u8272'
           ),
           React.createElement(
             Option,
             { value: 'orange' },
-            '橙色'
+            '\u6A59\u8272'
           ),
           React.createElement(
             Option,
             { value: 'yellow' },
-            '黄色'
+            '\u9EC4\u8272'
           ),
           React.createElement(
             Option,
             { value: 'green' },
-            '绿色'
+            '\u7EFF\u8272'
           ),
           React.createElement(
             Option,
             { value: 'blue' },
-            '蓝色'
+            '\u84DD\u8272'
           )
         )
       ),
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '性别：' }),
+          label: '\u6027\u522B\uFF1A' }),
         React.createElement(
           RadioGroup,
           radioProps,
           React.createElement(
             _antd.Radio,
             { value: 'male' },
-            '男'
+            '\u7537'
           ),
           React.createElement(
             _antd.Radio,
             { value: 'female' },
-            '女'
+            '\u5973'
           )
         )
       ),
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '兴趣爱好：' }),
+          label: '\u5174\u8DA3\u7231\u597D\uFF1A' }),
         React.createElement(_antd.Checkbox, getFieldProps('eat', {
           valuePropName: 'checked'
         })),
-        '吃饭饭  ',
+        '\u5403\u996D\u996D \xA0',
         React.createElement(_antd.Checkbox, getFieldProps('sleep', {
           valuePropName: 'checked'
         })),
-        '睡觉觉  ',
+        '\u7761\u89C9\u89C9 \xA0',
         React.createElement(_antd.Checkbox, getFieldProps('beat', {
           valuePropName: 'checked'
         })),
-        '打豆豆  '
+        '\u6253\u8C46\u8C46 \xA0'
       ),
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '生日：' }),
+          label: '\u751F\u65E5\uFF1A' }),
         React.createElement(_antd.DatePicker, birthdayProps)
       ),
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '8~12间的质数：' }),
+          label: '8~12\u95F4\u7684\u8D28\u6570\uFF1A' }),
         React.createElement(_antd.InputNumber, _extends({}, primeNumberProps, { min: 8, max: 12 }))
       ),
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '选择地址：' }),
+          label: '\u9009\u62E9\u5730\u5740\uFF1A' }),
         React.createElement(_antd.Cascader, _extends({}, addressProps, { options: address }))
       ),
       React.createElement(
@@ -222,13 +222,13 @@ var Demo = React.createClass({
         React.createElement(
           _antd.Button,
           { type: 'primary', onClick: this.handleSubmit },
-          '确定'
+          '\u786E\u5B9A'
         ),
-        '   ',
+        '\xA0\xA0\xA0',
         React.createElement(
           _antd.Button,
           { type: 'ghost', onClick: this.handleReset },
-          '重置'
+          '\u91CD\u7F6E'
         )
       )
     );

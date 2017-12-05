@@ -709,18 +709,18 @@ ReactDOM.render(React.createElement(
   { defaultActiveKey: "1", onChange: callback },
   React.createElement(
     TabPane,
-    { tab: "选项卡一", key: "1" },
-    "选项卡一内容"
+    { tab: "\u9009\u9879\u5361\u4E00", key: "1" },
+    "\u9009\u9879\u5361\u4E00\u5185\u5BB9"
   ),
   React.createElement(
     TabPane,
-    { tab: "选项卡二", key: "2" },
-    "选项卡二内容"
+    { tab: "\u9009\u9879\u5361\u4E8C", key: "2" },
+    "\u9009\u9879\u5361\u4E8C\u5185\u5BB9"
   ),
   React.createElement(
     TabPane,
-    { tab: "选项卡三", key: "3" },
-    "选项卡三内容"
+    { tab: "\u9009\u9879\u5361\u4E09", key: "3" },
+    "\u9009\u9879\u5361\u4E09\u5185\u5BB9"
   )
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Tabs } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
 <span class="hljs-keyword">const</span> TabPane = Tabs.TabPane;
@@ -760,17 +760,17 @@ var tabContent = [React.createElement(
   "span",
   null,
   React.createElement(_antd.Icon, { type: "apple" }),
-  "选项卡一"
+  "\u9009\u9879\u5361\u4E00"
 ), React.createElement(
   "span",
   null,
   React.createElement(_antd.Icon, { type: "android" }),
-  "选项卡二"
+  "\u9009\u9879\u5361\u4E8C"
 ), React.createElement(
   "span",
   null,
   React.createElement(_antd.Icon, { type: "lock" }),
-  "选项卡三"
+  "\u9009\u9879\u5361\u4E09"
 )];
 
 ReactDOM.render(React.createElement(
@@ -779,17 +779,17 @@ ReactDOM.render(React.createElement(
   React.createElement(
     TabPane,
     { tab: tabContent[0], key: "1" },
-    "选项卡一"
+    "\u9009\u9879\u5361\u4E00"
   ),
   React.createElement(
     TabPane,
     { tab: tabContent[1], key: "2" },
-    "选项卡二"
+    "\u9009\u9879\u5361\u4E8C"
   ),
   React.createElement(
     TabPane,
     { tab: tabContent[2], key: "3" },
-    "选项卡三"
+    "\u9009\u9879\u5361\u4E09"
   )
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Tabs, Icon } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
 <span class="hljs-keyword">const</span> TabPane = Tabs.TabPane;
@@ -830,7 +830,7 @@ var TabPane = _antd.Tabs.TabPane;
 var operations = React.createElement(
   _antd.Button,
   null,
-  "额外操作"
+  "\u989D\u5916\u64CD\u4F5C"
 );
 
 ReactDOM.render(React.createElement(
@@ -838,18 +838,18 @@ ReactDOM.render(React.createElement(
   { tabBarExtraContent: operations },
   React.createElement(
     TabPane,
-    { tab: "选项卡一", key: "1" },
-    "选项卡一内容"
+    { tab: "\u9009\u9879\u5361\u4E00", key: "1" },
+    "\u9009\u9879\u5361\u4E00\u5185\u5BB9"
   ),
   React.createElement(
     TabPane,
-    { tab: "选项卡二", key: "2" },
-    "选项卡二内容"
+    { tab: "\u9009\u9879\u5361\u4E8C", key: "2" },
+    "\u9009\u9879\u5361\u4E8C\u5185\u5BB9"
   ),
   React.createElement(
     TabPane,
-    { tab: "选项卡三", key: "3" },
-    "选项卡三内容"
+    { tab: "\u9009\u9879\u5361\u4E09", key: "3" },
+    "\u9009\u9879\u5361\u4E09\u5185\u5BB9"
   )
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Tabs, Button } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
 <span class="hljs-keyword">const</span> TabPane = Tabs.TabPane;
@@ -900,7 +900,7 @@ var Demo = React.createClass({
       React.createElement(
         'div',
         { style: { marginBottom: 16 } },
-        '页签位置：',
+        '\u9875\u7B7E\u4F4D\u7F6E\uFF1A',
         React.createElement(
           _antd.Select,
           { value: this.state.tabPosition, onChange: this.changeTabPosition,
@@ -932,18 +932,18 @@ var Demo = React.createClass({
         { tabPosition: this.state.tabPosition },
         React.createElement(
           TabPane,
-          { tab: '选项卡一', key: '1' },
-          '选项卡一内容'
+          { tab: '\u9009\u9879\u5361\u4E00', key: '1' },
+          '\u9009\u9879\u5361\u4E00\u5185\u5BB9'
         ),
         React.createElement(
           TabPane,
-          { tab: '选项卡二', key: '2' },
-          '选项卡二内容'
+          { tab: '\u9009\u9879\u5361\u4E8C', key: '2' },
+          '\u9009\u9879\u5361\u4E8C\u5185\u5BB9'
         ),
         React.createElement(
           TabPane,
-          { tab: '选项卡三', key: '3' },
-          '选项卡三内容'
+          { tab: '\u9009\u9879\u5361\u4E09', key: '3' },
+          '\u9009\u9879\u5361\u4E09\u5185\u5BB9'
         )
       )
     );
@@ -1013,12 +1013,12 @@ var Demo = React.createClass({
     this.newTabIndex = 0;
     var panes = [React.createElement(
       TabPane,
-      { tab: "选项卡", key: "1" },
-      "选项卡一内容"
+      { tab: "\u9009\u9879\u5361", key: "1" },
+      "\u9009\u9879\u5361\u4E00\u5185\u5BB9"
     ), React.createElement(
       TabPane,
-      { tab: "选项卡", key: "2" },
-      "选项卡二内容"
+      { tab: "\u9009\u9879\u5361", key: "2" },
+      "\u9009\u9879\u5361\u4E8C\u5185\u5BB9"
     )];
     return {
       activeKey: panes[0].key,
@@ -1036,8 +1036,8 @@ var Demo = React.createClass({
     var activeKey = "newTab" + this.newTabIndex++;
     panes.push(React.createElement(
       TabPane,
-      { tab: "新建页签", key: activeKey },
-      "新页面"
+      { tab: "\u65B0\u5EFA\u9875\u7B7E", key: activeKey },
+      "\u65B0\u9875\u9762"
     ));
     this.setState({ panes: panes, activeKey: activeKey });
   },
@@ -1146,18 +1146,18 @@ ReactDOM.render(React.createElement(
   { defaultActiveKey: "1" },
   React.createElement(
     TabPane,
-    { tab: "选项卡一", key: "1" },
-    "选项卡一"
+    { tab: "\u9009\u9879\u5361\u4E00", key: "1" },
+    "\u9009\u9879\u5361\u4E00"
   ),
   React.createElement(
     TabPane,
-    { tab: "选项卡二", disabled: true, key: "2" },
-    "选项卡二"
+    { tab: "\u9009\u9879\u5361\u4E8C", disabled: true, key: "2" },
+    "\u9009\u9879\u5361\u4E8C"
   ),
   React.createElement(
     TabPane,
-    { tab: "选项卡三", key: "3" },
-    "选项卡三"
+    { tab: "\u9009\u9879\u5361\u4E09", key: "3" },
+    "\u9009\u9879\u5361\u4E09"
   )
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Tabs } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
 <span class="hljs-keyword">const</span> TabPane = Tabs.TabPane;
@@ -1194,48 +1194,48 @@ ReactDOM.render(React.createElement(
   { defaultActiveKey: "1" },
   React.createElement(
     TabPane,
-    { tab: "选项一", key: "1" },
-    "选项卡一"
+    { tab: "\u9009\u9879\u4E00", key: "1" },
+    "\u9009\u9879\u5361\u4E00"
   ),
   React.createElement(
     TabPane,
-    { tab: "选项二", key: "2" },
-    "选项卡二"
+    { tab: "\u9009\u9879\u4E8C", key: "2" },
+    "\u9009\u9879\u5361\u4E8C"
   ),
   React.createElement(
     TabPane,
-    { tab: "选项三", key: "3" },
-    "选项卡三"
+    { tab: "\u9009\u9879\u4E09", key: "3" },
+    "\u9009\u9879\u5361\u4E09"
   ),
   React.createElement(
     TabPane,
-    { tab: "选项四", key: "4" },
-    "选项卡四"
+    { tab: "\u9009\u9879\u56DB", key: "4" },
+    "\u9009\u9879\u5361\u56DB"
   ),
   React.createElement(
     TabPane,
-    { tab: "选项五", key: "5" },
-    "选项卡五"
+    { tab: "\u9009\u9879\u4E94", key: "5" },
+    "\u9009\u9879\u5361\u4E94"
   ),
   React.createElement(
     TabPane,
-    { tab: "选项六", key: "6" },
-    "选项卡六"
+    { tab: "\u9009\u9879\u516D", key: "6" },
+    "\u9009\u9879\u5361\u516D"
   ),
   React.createElement(
     TabPane,
-    { tab: "选项七", key: "7" },
-    "选项卡七"
+    { tab: "\u9009\u9879\u4E03", key: "7" },
+    "\u9009\u9879\u5361\u4E03"
   ),
   React.createElement(
     TabPane,
-    { tab: "选项八", key: "8" },
-    "选项卡八"
+    { tab: "\u9009\u9879\u516B", key: "8" },
+    "\u9009\u9879\u5361\u516B"
   ),
   React.createElement(
     TabPane,
-    { tab: "选项九", key: "9" },
-    "选项卡九"
+    { tab: "\u9009\u9879\u4E5D", key: "9" },
+    "\u9009\u9879\u5361\u4E5D"
   )
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Tabs } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
 <span class="hljs-keyword">const</span> TabPane = Tabs.TabPane;
@@ -1278,18 +1278,18 @@ ReactDOM.render(React.createElement(
   { defaultActiveKey: "2", size: "small" },
   React.createElement(
     TabPane,
-    { tab: "选项卡一", key: "1" },
-    "选项卡一内容"
+    { tab: "\u9009\u9879\u5361\u4E00", key: "1" },
+    "\u9009\u9879\u5361\u4E00\u5185\u5BB9"
   ),
   React.createElement(
     TabPane,
-    { tab: "选项卡二", key: "2" },
-    "选项卡二内容"
+    { tab: "\u9009\u9879\u5361\u4E8C", key: "2" },
+    "\u9009\u9879\u5361\u4E8C\u5185\u5BB9"
   ),
   React.createElement(
     TabPane,
-    { tab: "选项卡三", key: "3" },
-    "选项卡三内容"
+    { tab: "\u9009\u9879\u5361\u4E09", key: "3" },
+    "\u9009\u9879\u5361\u4E09\u5185\u5BB9"
   )
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Tabs } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
 <span class="hljs-keyword">const</span> TabPane = Tabs.TabPane;
@@ -1330,18 +1330,18 @@ ReactDOM.render(React.createElement(
   { onChange: callback, type: "card" },
   React.createElement(
     TabPane,
-    { tab: "选项卡一", key: "1" },
-    "选项卡一内容"
+    { tab: "\u9009\u9879\u5361\u4E00", key: "1" },
+    "\u9009\u9879\u5361\u4E00\u5185\u5BB9"
   ),
   React.createElement(
     TabPane,
-    { tab: "选项卡二", key: "2" },
-    "选项卡二内容"
+    { tab: "\u9009\u9879\u5361\u4E8C", key: "2" },
+    "\u9009\u9879\u5361\u4E8C\u5185\u5BB9"
   ),
   React.createElement(
     TabPane,
-    { tab: "选项卡三", key: "3" },
-    "选项卡三内容"
+    { tab: "\u9009\u9879\u5361\u4E09", key: "3" },
+    "\u9009\u9879\u5361\u4E09\u5185\u5BB9"
   )
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Tabs } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
 <span class="hljs-keyword">const</span> TabPane = Tabs.TabPane;
@@ -1385,18 +1385,18 @@ ReactDOM.render(React.createElement(
     { type: "card" },
     React.createElement(
       TabPane,
-      { tab: "选项卡一", key: "1" },
-      "选项卡一内容"
+      { tab: "\u9009\u9879\u5361\u4E00", key: "1" },
+      "\u9009\u9879\u5361\u4E00\u5185\u5BB9"
     ),
     React.createElement(
       TabPane,
-      { tab: "选项卡二", key: "2" },
-      "选项卡二内容"
+      { tab: "\u9009\u9879\u5361\u4E8C", key: "2" },
+      "\u9009\u9879\u5361\u4E8C\u5185\u5BB9"
     ),
     React.createElement(
       TabPane,
-      { tab: "选项卡三", key: "3" },
-      "选项卡三内容"
+      { tab: "\u9009\u9879\u5361\u4E09", key: "3" },
+      "\u9009\u9879\u5361\u4E09\u5185\u5BB9"
     )
   )
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Tabs } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;

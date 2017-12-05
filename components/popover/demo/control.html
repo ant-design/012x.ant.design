@@ -28,17 +28,17 @@ var App = React.createClass({
       React.createElement(
         "a",
         { onClick: this.hide },
-        "关闭卡片"
+        "\u5173\u95ED\u5361\u7247"
       )
     );
     return React.createElement(
       _antd.Popover,
-      { overlay: content, title: "标题", trigger: "click",
+      { overlay: content, title: "\u6807\u9898", trigger: "click",
         visible: this.state.visible, onVisibleChange: this.handleVisibleChange },
       React.createElement(
         _antd.Button,
         { type: "primary" },
-        "点击弹出卡片"
+        "\u70B9\u51FB\u5F39\u51FA\u5361\u7247"
       )
     );
   }

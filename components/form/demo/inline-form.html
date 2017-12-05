@@ -25,15 +25,15 @@ var Demo = React.createClass({
       React.createElement(
         FormItem,
         {
-          label: '账户：' },
-        React.createElement(_antd.Input, _extends({ placeholder: '请输入账户名'
+          label: '\u8D26\u6237\uFF1A' },
+        React.createElement(_antd.Input, _extends({ placeholder: '\u8BF7\u8F93\u5165\u8D26\u6237\u540D'
         }, getFieldProps('userName')))
       ),
       React.createElement(
         FormItem,
         {
-          label: '密码：' },
-        React.createElement(_antd.Input, _extends({ type: 'password', placeholder: '请输入密码'
+          label: '\u5BC6\u7801\uFF1A' },
+        React.createElement(_antd.Input, _extends({ type: 'password', placeholder: '\u8BF7\u8F93\u5165\u5BC6\u7801'
         }, getFieldProps('password')))
       ),
       React.createElement(
@@ -43,13 +43,13 @@ var Demo = React.createClass({
           'label',
           { className: 'ant-checkbox-inline' },
           React.createElement(_antd.Checkbox, getFieldProps('agreement')),
-          '记住我'
+          '\u8BB0\u4F4F\u6211'
         )
       ),
       React.createElement(
         _antd.Button,
         { type: 'primary', htmlType: 'submit' },
-        '登录'
+        '\u767B\u5F55'
       )
     );
   }

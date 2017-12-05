@@ -14,12 +14,12 @@ var Demo = React.createClass({
     this.newTabIndex = 0;
     var panes = [React.createElement(
       TabPane,
-      { tab: "选项卡", key: "1" },
-      "选项卡一内容"
+      { tab: "\u9009\u9879\u5361", key: "1" },
+      "\u9009\u9879\u5361\u4E00\u5185\u5BB9"
     ), React.createElement(
       TabPane,
-      { tab: "选项卡", key: "2" },
-      "选项卡二内容"
+      { tab: "\u9009\u9879\u5361", key: "2" },
+      "\u9009\u9879\u5361\u4E8C\u5185\u5BB9"
     )];
     return {
       activeKey: panes[0].key,
@@ -37,8 +37,8 @@ var Demo = React.createClass({
     var activeKey = "newTab" + this.newTabIndex++;
     panes.push(React.createElement(
       TabPane,
-      { tab: "新建页签", key: activeKey },
-      "新页面"
+      { tab: "\u65B0\u5EFA\u9875\u7B7E", key: activeKey },
+      "\u65B0\u9875\u9762"
     ));
     this.setState({ panes: panes, activeKey: activeKey });
   },

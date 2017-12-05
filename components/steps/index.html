@@ -801,9 +801,9 @@ var Step = _antd.Steps.Step;
 ReactDOM.render(React.createElement(
   _antd.Steps,
   null,
-  React.createElement(Step, { status: "finish", title: "步骤1", icon: "cloud" }),
-  React.createElement(Step, { status: "process", title: "步骤2", icon: "apple" }),
-  React.createElement(Step, { status: "wait", title: "步骤3", icon: "github" })
+  React.createElement(Step, { status: "finish", title: "\u6B65\u9AA41", icon: "cloud" }),
+  React.createElement(Step, { status: "process", title: "\u6B65\u9AA42", icon: "apple" }),
+  React.createElement(Step, { status: "wait", title: "\u6B65\u9AA43", icon: "github" })
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Steps } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
 <span class="hljs-keyword">const</span> Step = Steps.Step;
 
@@ -838,7 +838,7 @@ var Step = _antd.Steps.Step;
 var array = Array.apply(null, Array(Math.floor(Math.random() * 3) + 3));
 var steps = array.map(function (item, i) {
   return {
-    title: '步骤' + (i + 1)
+    title: '\u6B65\u9AA4' + (i + 1)
   };
 });
 
@@ -866,9 +866,9 @@ var App = React.createClass({
       React.createElement(
         'div',
         null,
-        '当前正在执行第 ',
+        '\u5F53\u524D\u6B63\u5728\u6267\u884C\u7B2C ',
         cs + 1,
-        ' 步'
+        ' \u6B65'
       ),
       React.createElement(
         _antd.Steps,
@@ -883,7 +883,7 @@ var App = React.createClass({
         React.createElement(
           _antd.Button,
           { onClick: this.next },
-          '下一步'
+          '\u4E0B\u4E00\u6B65'
         )
       )
     );

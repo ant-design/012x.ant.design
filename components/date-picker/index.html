@@ -926,11 +926,11 @@ var DateRange = React.createClass({
       null,
       React.createElement(_antd.DatePicker, { disabledDate: this.disabledStartDate,
         value: this.state.startValue,
-        placeholder: '开始日期',
+        placeholder: '\u5F00\u59CB\u65E5\u671F',
         onChange: this.onChange.bind(this, 'startValue') }),
       React.createElement(_antd.DatePicker, { disabledDate: this.disabledEndDate,
         value: this.state.endValue,
-        placeholder: '结束日期',
+        placeholder: '\u7ED3\u675F\u65E5\u671F',
         onChange: this.onChange.bind(this, 'endValue') })
     );
   }
@@ -1053,7 +1053,7 @@ function onChange(value) {
   console.log('选择了时间：', value);
 }
 
-ReactDOM.render(React.createElement(_antd.DatePicker, { showTime: true, format: 'yyyy-MM-dd HH:mm:ss', placeholder: '请选择时间', onChange: onChange }), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { DatePicker } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+ReactDOM.render(React.createElement(_antd.DatePicker, { showTime: true, format: 'yyyy-MM-dd HH:mm:ss', placeholder: '\u8BF7\u9009\u62E9\u65F6\u95F4', onChange: onChange }), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { DatePicker } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
 
 <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">onChange</span>(<span class="hljs-params">value</span>) </span>{
   <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'选择了时间：'</span>, value);

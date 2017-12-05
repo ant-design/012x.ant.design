@@ -267,7 +267,6 @@ a {
   text-decoration: none;
   outline: none;
   cursor: pointer;
-  -webkit-transition: color .3s ease;
   transition: color .3s ease;
 }
 a:hover {
@@ -926,73 +925,58 @@ samp {
 }
 .row-flex {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .row-flex:before,
 .row-flex:after {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 .row-flex-start {
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
 .row-flex-center {
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 .row-flex-end {
   -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
 .row-flex-space-between {
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 .row-flex-space-around {
-  -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 .row-flex-top {
   -webkit-box-align: start;
-  -webkit-align-items: flex-start;
       -ms-flex-align: start;
-              -ms-grid-row-align: flex-start;
           align-items: flex-start;
 }
 .row-flex-middle {
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
-              -ms-grid-row-align: center;
           align-items: center;
 }
 .row-flex-bottom {
   -webkit-box-align: end;
-  -webkit-align-items: flex-end;
       -ms-flex-align: end;
-              -ms-grid-row-align: flex-end;
           align-items: flex-end;
 }
 .col {
@@ -1000,7 +984,6 @@ samp {
   display: block;
   float: left;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
 }
@@ -1009,7 +992,6 @@ samp {
   display: block;
   float: left;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
   padding-left: 0;
@@ -1029,7 +1011,6 @@ samp {
 }
 .col-order-24 {
   -webkit-box-ordinal-group: 25;
-  -webkit-order: 24;
       -ms-flex-order: 24;
           order: 24;
 }
@@ -1047,7 +1028,6 @@ samp {
 }
 .col-order-23 {
   -webkit-box-ordinal-group: 24;
-  -webkit-order: 23;
       -ms-flex-order: 23;
           order: 23;
 }
@@ -1065,7 +1045,6 @@ samp {
 }
 .col-order-22 {
   -webkit-box-ordinal-group: 23;
-  -webkit-order: 22;
       -ms-flex-order: 22;
           order: 22;
 }
@@ -1083,7 +1062,6 @@ samp {
 }
 .col-order-21 {
   -webkit-box-ordinal-group: 22;
-  -webkit-order: 21;
       -ms-flex-order: 21;
           order: 21;
 }
@@ -1101,7 +1079,6 @@ samp {
 }
 .col-order-20 {
   -webkit-box-ordinal-group: 21;
-  -webkit-order: 20;
       -ms-flex-order: 20;
           order: 20;
 }
@@ -1119,7 +1096,6 @@ samp {
 }
 .col-order-19 {
   -webkit-box-ordinal-group: 20;
-  -webkit-order: 19;
       -ms-flex-order: 19;
           order: 19;
 }
@@ -1137,7 +1113,6 @@ samp {
 }
 .col-order-18 {
   -webkit-box-ordinal-group: 19;
-  -webkit-order: 18;
       -ms-flex-order: 18;
           order: 18;
 }
@@ -1155,7 +1130,6 @@ samp {
 }
 .col-order-17 {
   -webkit-box-ordinal-group: 18;
-  -webkit-order: 17;
       -ms-flex-order: 17;
           order: 17;
 }
@@ -1173,7 +1147,6 @@ samp {
 }
 .col-order-16 {
   -webkit-box-ordinal-group: 17;
-  -webkit-order: 16;
       -ms-flex-order: 16;
           order: 16;
 }
@@ -1191,7 +1164,6 @@ samp {
 }
 .col-order-15 {
   -webkit-box-ordinal-group: 16;
-  -webkit-order: 15;
       -ms-flex-order: 15;
           order: 15;
 }
@@ -1209,7 +1181,6 @@ samp {
 }
 .col-order-14 {
   -webkit-box-ordinal-group: 15;
-  -webkit-order: 14;
       -ms-flex-order: 14;
           order: 14;
 }
@@ -1227,7 +1198,6 @@ samp {
 }
 .col-order-13 {
   -webkit-box-ordinal-group: 14;
-  -webkit-order: 13;
       -ms-flex-order: 13;
           order: 13;
 }
@@ -1245,7 +1215,6 @@ samp {
 }
 .col-order-12 {
   -webkit-box-ordinal-group: 13;
-  -webkit-order: 12;
       -ms-flex-order: 12;
           order: 12;
 }
@@ -1263,7 +1232,6 @@ samp {
 }
 .col-order-11 {
   -webkit-box-ordinal-group: 12;
-  -webkit-order: 11;
       -ms-flex-order: 11;
           order: 11;
 }
@@ -1281,7 +1249,6 @@ samp {
 }
 .col-order-10 {
   -webkit-box-ordinal-group: 11;
-  -webkit-order: 10;
       -ms-flex-order: 10;
           order: 10;
 }
@@ -1299,7 +1266,6 @@ samp {
 }
 .col-order-9 {
   -webkit-box-ordinal-group: 10;
-  -webkit-order: 9;
       -ms-flex-order: 9;
           order: 9;
 }
@@ -1317,7 +1283,6 @@ samp {
 }
 .col-order-8 {
   -webkit-box-ordinal-group: 9;
-  -webkit-order: 8;
       -ms-flex-order: 8;
           order: 8;
 }
@@ -1335,7 +1300,6 @@ samp {
 }
 .col-order-7 {
   -webkit-box-ordinal-group: 8;
-  -webkit-order: 7;
       -ms-flex-order: 7;
           order: 7;
 }
@@ -1353,7 +1317,6 @@ samp {
 }
 .col-order-6 {
   -webkit-box-ordinal-group: 7;
-  -webkit-order: 6;
       -ms-flex-order: 6;
           order: 6;
 }
@@ -1371,7 +1334,6 @@ samp {
 }
 .col-order-5 {
   -webkit-box-ordinal-group: 6;
-  -webkit-order: 5;
       -ms-flex-order: 5;
           order: 5;
 }
@@ -1389,7 +1351,6 @@ samp {
 }
 .col-order-4 {
   -webkit-box-ordinal-group: 5;
-  -webkit-order: 4;
       -ms-flex-order: 4;
           order: 4;
 }
@@ -1407,7 +1368,6 @@ samp {
 }
 .col-order-3 {
   -webkit-box-ordinal-group: 4;
-  -webkit-order: 3;
       -ms-flex-order: 3;
           order: 3;
 }
@@ -1425,7 +1385,6 @@ samp {
 }
 .col-order-2 {
   -webkit-box-ordinal-group: 3;
-  -webkit-order: 2;
       -ms-flex-order: 2;
           order: 2;
 }
@@ -1443,7 +1402,6 @@ samp {
 }
 .col-order-1 {
   -webkit-box-ordinal-group: 2;
-  -webkit-order: 1;
       -ms-flex-order: 1;
           order: 1;
 }
@@ -3087,7 +3045,6 @@ samp {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
@@ -3108,7 +3065,6 @@ samp {
 }
 .ant-btn:not([disabled]):active {
   outline: 0;
-  -webkit-transition: none;
   transition: none;
 }
 .ant-btn.disabled,
@@ -3355,7 +3311,6 @@ fieldset[disabled] .ant-btn-dashed.active {
   position: absolute;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
 }
 .ant-btn.ant-btn-loading {
@@ -3503,7 +3458,6 @@ fieldset[disabled] .ant-btn-dashed.active {
   border: 1px solid #ccc;
   background-color: #ccc;
   cursor: pointer;
-  -webkit-transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
   transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -3526,7 +3480,6 @@ fieldset[disabled] .ant-btn-dashed.active {
   background-color: #fff;
   content: " ";
   cursor: pointer;
-  -webkit-transition: left 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
   transition: left 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
 }
 .ant-switch-small {
@@ -3597,7 +3550,6 @@ fieldset[disabled] .ant-btn-dashed.active {
   font-size: 12px;
 }
 .ant-dropdown-wrap .anticon-down:before {
-  -webkit-transition: -webkit-transform 0.2s ease;
   transition: -webkit-transform 0.2s ease;
   transition: transform 0.2s ease;
   transition: transform 0.2s ease, -webkit-transform 0.2s ease;
@@ -3634,7 +3586,6 @@ fieldset[disabled] .ant-btn-dashed.active {
   color: #666;
   white-space: nowrap;
   cursor: pointer;
-  -webkit-transition: background 0.3s ease;
   transition: background 0.3s ease;
 }
 .ant-dropdown-menu-item > a,
@@ -3807,7 +3758,6 @@ fieldset[disabled] .ant-btn-dashed.active {
 .ant-progress-line-bg {
   border-radius: 100px;
   background-color: #2db7f5;
-  -webkit-transition: all 0.3s linear 0s;
   transition: all 0.3s linear 0s;
   position: relative;
 }
@@ -3944,7 +3894,6 @@ fieldset[disabled] .ant-btn-dashed.active {
 }
 .ant-select-arrow:before {
   content: '\E603';
-  -webkit-transition: -webkit-transform 0.2s ease;
   transition: -webkit-transform 0.2s ease;
   transition: transform 0.2s ease;
   transition: transform 0.2s ease, -webkit-transform 0.2s ease;
@@ -3960,7 +3909,6 @@ fieldset[disabled] .ant-btn-dashed.active {
   background-color: #fff;
   border-radius: 6px;
   border: 1px solid #d9d9d9;
-  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .ant-select-selection:hover {
@@ -3991,7 +3939,6 @@ fieldset[disabled] .ant-btn-dashed.active {
   margin-top: -6px;
   line-height: 12px;
   cursor: pointer;
-  -webkit-transition: color 0.3s ease, opacity 0.15s ease;
   transition: color 0.3s ease, opacity 0.15s ease;
 }
 .ant-select-selection__clear:before {
@@ -4137,7 +4084,6 @@ fieldset[disabled] .ant-btn-dashed.active {
   max-width: 99%;
   position: relative;
   overflow: hidden;
-  -webkit-transition: padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   padding: 0 20px 0 10px;
 }
@@ -4147,7 +4093,6 @@ fieldset[disabled] .ant-btn-dashed.active {
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 100%;
-  -webkit-transition: margin 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: margin 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .ant-select-selection--multiple .ant-select-selection__choice__remove {
@@ -4161,7 +4106,6 @@ fieldset[disabled] .ant-btn-dashed.active {
   line-height: inherit;
   cursor: pointer;
   font-weight: bold;
-  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   display: inline-block;
   font-size: 12px;
@@ -4224,7 +4168,6 @@ fieldset[disabled] .ant-btn-dashed.active {
   height: 100%;
   position: relative;
   z-index: 1;
-  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .ant-select-combobox .ant-select-search__field:focus {
@@ -4300,7 +4243,6 @@ fieldset[disabled] .ant-btn-dashed.active {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  -webkit-transition: background 0.3s ease;
   transition: background 0.3s ease;
 }
 .ant-select-dropdown-menu-item:hover,
@@ -4396,7 +4338,6 @@ fieldset[disabled] .ant-btn-dashed.active {
   display: inline-block;
   outline: none;
   font-size: 12px;
-  -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
 .ant-calendar-picker > input {
@@ -4408,7 +4349,6 @@ fieldset[disabled] .ant-btn-dashed.active {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   width: 12px;
   height: 12px;
@@ -4567,7 +4507,6 @@ fieldset[disabled] .ant-btn-dashed.active {
   padding: 0;
   background: transparent;
   text-align: center;
-  -webkit-transition: background 0.3s ease;
   transition: background 0.3s ease;
 }
 .ant-calendar-date:hover {
@@ -4659,7 +4598,6 @@ fieldset[disabled] .ant-btn-dashed.active {
   line-height: 1;
   width: 20px;
   text-indent: 43px;
-  -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
 .ant-calendar .ant-calendar-clear-btn:hover:after {
@@ -4684,7 +4622,6 @@ fieldset[disabled] .ant-btn-dashed.active {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
@@ -4711,7 +4648,6 @@ fieldset[disabled] .ant-btn-dashed.active {
 }
 .ant-calendar .ant-calendar-ok-btn:not([disabled]):active {
   outline: 0;
-  -webkit-transition: none;
   transition: none;
 }
 .ant-calendar .ant-calendar-ok-btn.disabled,
@@ -4844,7 +4780,6 @@ fieldset[disabled] .ant-calendar .ant-calendar-ok-btn.active {
   background-image: none;
   border: 1px solid #d9d9d9;
   border-radius: 6px;
-  -webkit-transition: border .2s cubic-bezier(0.645, 0.045, 0.355, 1), background .2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow .2s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: border .2s cubic-bezier(0.645, 0.045, 0.355, 1), background .2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow .2s cubic-bezier(0.645, 0.045, 0.355, 1);
   border-radius: 4px;
   height: 22px;
@@ -4981,7 +4916,6 @@ textarea.ant-calendar-range .ant-time-picker-input {
   background-image: none;
   border: 1px solid #d9d9d9;
   border-radius: 6px;
-  -webkit-transition: border .2s cubic-bezier(0.645, 0.045, 0.355, 1), background .2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow .2s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: border .2s cubic-bezier(0.645, 0.045, 0.355, 1), background .2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow .2s cubic-bezier(0.645, 0.045, 0.355, 1);
   border-radius: 4px;
   height: 22px;
@@ -5158,7 +5092,6 @@ textarea.ant-calendar-time .ant-time-picker-input {
   line-height: 24px;
   padding: 0 6px;
   border-radius: 4px;
-  -webkit-transition: background 0.3s ease;
   transition: background 0.3s ease;
 }
 .ant-calendar-month-panel-month:hover {
@@ -5260,7 +5193,6 @@ textarea.ant-calendar-time .ant-time-picker-input {
   line-height: 24px;
   padding: 0 6px;
   border-radius: 4px;
-  -webkit-transition: background 0.3s ease;
   transition: background 0.3s ease;
 }
 .ant-calendar-year-panel-year:hover {
@@ -5385,7 +5317,6 @@ textarea.ant-calendar-time .ant-time-picker-input {
   line-height: 24px;
   padding: 0 6px;
   border-radius: 4px;
-  -webkit-transition: background 0.3s ease;
   transition: background 0.3s ease;
 }
 .ant-calendar-decade-panel-decade:hover {
@@ -5462,7 +5393,6 @@ textarea.ant-calendar-time .ant-time-picker-input {
   display: inline-block;
   outline: none;
   font-size: 12px;
-  -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
 .ant-time-picker-input {
@@ -5480,7 +5410,6 @@ textarea.ant-calendar-time .ant-time-picker-input {
   background-image: none;
   border: 1px solid #d9d9d9;
   border-radius: 6px;
-  -webkit-transition: border .2s cubic-bezier(0.645, 0.045, 0.355, 1), background .2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow .2s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: border .2s cubic-bezier(0.645, 0.045, 0.355, 1), background .2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow .2s cubic-bezier(0.645, 0.045, 0.355, 1);
   width: 100px;
 }
@@ -5545,7 +5474,6 @@ textarea.ant-time-picker-input {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   width: 12px;
   height: 12px;
@@ -5617,7 +5545,6 @@ textarea.ant-time-picker-input {
   display: inline-block;
   line-height: 1;
   width: 20px;
-  -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
 .ant-time-picker-panel-clear-btn:hover:after {
@@ -5669,7 +5596,6 @@ textarea.ant-time-picker-input {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  -webkit-transition: background 0.3s ease;
   transition: background 0.3s ease;
 }
 .ant-time-picker-panel-select li:hover {
@@ -5724,7 +5650,6 @@ textarea.ant-time-picker-input {
   color: #000;
   text-shadow: 0 1px 0 #fff;
   text-decoration: none;
-  -webkit-transition: color .3s ease;
   transition: color .3s ease;
   color: #999;
 }
@@ -5891,13 +5816,11 @@ textarea.ant-time-picker-input {
           transform-origin: 0 0;
 }
 .ant-tabs-ink-bar-transition-forward {
-  -webkit-transition: right 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), left 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0.09s;
   transition: right 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), left 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0.09s;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
 }
 .ant-tabs-ink-bar-transition-backward {
-  -webkit-transition: right 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0.09s, left 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: right 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0.09s, left 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
@@ -5960,7 +5883,6 @@ textarea.ant-time-picker-input {
   position: absolute;
   text-align: center;
   color: #999;
-  -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
 .ant-tabs-tab-prev:hover,
@@ -6036,7 +5958,6 @@ textarea.ant-time-picker-input {
 .ant-tabs-nav {
   box-sizing: border-box;
   padding-left: 0;
-  -webkit-transition: left 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: left 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   position: relative;
   margin: 0;
@@ -6067,7 +5988,6 @@ textarea.ant-time-picker-input {
 }
 .ant-tabs-nav .ant-tabs-tab-inner {
   padding: 8px 20px;
-  -webkit-transition: color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   display: block;
   cursor: pointer;
@@ -6228,11 +6148,9 @@ textarea.ant-time-picker-input {
   height: auto;
 }
 .ant-tabs-vertical > .ant-tabs-bar .ant-tabs-ink-bar-transition-forward {
-  -webkit-transition: bottom 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), top 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0.09s;
   transition: bottom 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), top 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0.09s;
 }
 .ant-tabs-vertical > .ant-tabs-bar .ant-tabs-ink-bar-transition-backward {
-  -webkit-transition: bottom 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0.09s, top 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: bottom 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0.09s, top 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .ant-tabs-vertical > .ant-tabs-content {
@@ -6295,14 +6213,12 @@ textarea.ant-time-picker-input {
   border: 1px solid transparent;
   border-bottom: 0;
   border-radius: 6px 6px 0 0;
-  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   background: #f9f9f9;
   margin-right: 2px;
 }
 .ant-tabs.ant-tabs-card .ant-tabs-tab-inner {
   padding: 7px 16px 6px;
-  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .ant-tabs.ant-tabs-card .ant-tabs-tab-active {
@@ -6323,7 +6239,6 @@ textarea.ant-time-picker-input {
 .ant-tabs.ant-tabs-card .ant-tabs-tab-inner .anticon-cross {
   margin-right: 0;
   color: #999;
-  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   display: inline-block;
   font-size: 12px;
@@ -6385,7 +6300,6 @@ textarea.ant-time-picker-input {
   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=1, M12=0, M21=0, M22=1)";
   zoom: 1;
   color: #999;
-  -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
 :root .ant-tabs-extra-content .ant-tabs-new-tab {
@@ -6405,7 +6319,6 @@ textarea.ant-time-picker-input {
   overflow: hidden;
 }
 .ant-table-body {
-  -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
 .ant-table table {
@@ -6419,7 +6332,6 @@ textarea.ant-time-picker-input {
 .ant-table th {
   background: #f4f4f4;
   font-weight: bold;
-  -webkit-transition: background .3s ease;
   transition: background .3s ease;
   text-align: left;
 }
@@ -6436,7 +6348,6 @@ textarea.ant-time-picker-input {
   zoom: 1;
   cursor: pointer;
   color: #aaa;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 :root .ant-table th .anticon-filter {
@@ -6456,7 +6367,6 @@ textarea.ant-time-picker-input {
   border-bottom: 1px solid #e9e9e9;
 }
 .ant-table tr {
-  -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 .ant-table tr:hover {
@@ -7171,12 +7081,10 @@ td.ant-table-column-has-prev {
 .ant-pagination-item a {
   text-decoration: none;
   color: #666;
-  -webkit-transition: none;
   transition: none;
   margin: 0 6px;
 }
 .ant-pagination-item:hover {
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   border-color: #2db7f5;
 }
@@ -7248,7 +7156,6 @@ td.ant-table-column-has-prev {
   line-height: 28px;
   float: left;
   text-align: center;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   display: inline-block;
 }
@@ -7347,7 +7254,6 @@ td.ant-table-column-has-prev {
   background-image: none;
   border: 1px solid #d9d9d9;
   border-radius: 6px;
-  -webkit-transition: border .2s cubic-bezier(0.645, 0.045, 0.355, 1), background .2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow .2s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: border .2s cubic-bezier(0.645, 0.045, 0.355, 1), background .2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow .2s cubic-bezier(0.645, 0.045, 0.355, 1);
   margin: 0 8px;
   width: 50px;
@@ -7418,7 +7324,6 @@ textarea.ant-pagination-options-quick-jumper input {
   width: 30px;
   height: 24px;
   text-align: center;
-  -webkit-transition: border-color 0.3s ease;
   transition: border-color 0.3s ease;
 }
 .ant-pagination-simple .ant-pagination-simple-pager input:hover {
@@ -7548,7 +7453,6 @@ label > .anticon {
   background-image: none;
   border: 1px solid #d9d9d9;
   border-radius: 6px;
-  -webkit-transition: border .2s cubic-bezier(0.645, 0.045, 0.355, 1), background .2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow .2s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: border .2s cubic-bezier(0.645, 0.045, 0.355, 1), background .2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow .2s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .ant-input::-moz-placeholder {
@@ -8265,7 +8169,6 @@ fieldset[disabled] .ant-search-input:hover .ant-search-btn-noempty.active {
 .ant-steps .ant-steps-item.ant-steps-status-finish .ant-steps-tail > i:after {
   width: 100%;
   background: #2db7f5;
-  -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   opacity: 1;
 }
@@ -8309,7 +8212,6 @@ fieldset[disabled] .ant-search-input:hover .ant-search-btn-noempty.active {
   border-radius: 26px;
   font-size: 14px;
   margin-right: 8px;
-  -webkit-transition: background-color 0.3s ease, border-color 0.3s ease;
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 .ant-steps .ant-steps-head-inner > .ant-steps-icon {
@@ -8509,7 +8411,6 @@ fieldset[disabled] .ant-search-input:hover .ant-search-btn-noempty.active {
   color: #666;
   background-color: #fff;
   background-image: none;
-  -webkit-transition: border .2s cubic-bezier(0.645, 0.045, 0.355, 1), background .2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow .2s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: border .2s cubic-bezier(0.645, 0.045, 0.355, 1), background .2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow .2s cubic-bezier(0.645, 0.045, 0.355, 1);
   margin: 0;
   padding: 0;
@@ -8573,7 +8474,6 @@ textarea.ant-input-number {
   overflow: hidden;
   color: #999;
   position: relative;
-  -webkit-transition: all 0.1s linear;
   transition: all 0.1s linear;
   display: block;
   width: 100%;
@@ -8601,7 +8501,6 @@ textarea.ant-input-number {
   position: absolute;
   width: 12px;
   height: 12px;
-  -webkit-transition: all 0.1s linear;
   transition: all 0.1s linear;
   display: inline-block;
   font-size: 12px;
@@ -8657,7 +8556,6 @@ textarea.ant-input-number {
   -moz-appearance: textfield;
   line-height: 28px;
   height: 28px;
-  -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
   color: #666;
   border: 0;
@@ -8737,7 +8635,6 @@ textarea.ant-input-number {
   top: 0;
   right: 0;
   opacity: 0;
-  -webkit-transition: opacity 0.24s linear 0.1s;
   transition: opacity 0.24s linear 0.1s;
 }
 .ant-input-number:hover .ant-input-number-handler-wrap {
@@ -8832,7 +8729,6 @@ textarea.ant-input-number {
   border-radius: 3px;
   border-color: #d9d9d9;
   background-color: #fff;
-  -webkit-transition: border-color 0.1s cubic-bezier(0.71, -0.46, 0.29, 1.46), background-color 0.1s cubic-bezier(0.71, -0.46, 0.29, 1.46);
   transition: border-color 0.1s cubic-bezier(0.71, -0.46, 0.29, 1.46), background-color 0.1s cubic-bezier(0.71, -0.46, 0.29, 1.46);
 }
 .ant-checkbox-inner:after {
@@ -8849,7 +8745,6 @@ textarea.ant-input-number {
   border-top: 0;
   border-left: 0;
   content: ' ';
-  -webkit-transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6);
   transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6);
 }
 .ant-checkbox-input {
@@ -8904,7 +8799,6 @@ textarea.ant-input-number {
   border-top: 0;
   border-left: 0;
   content: ' ';
-  -webkit-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
   transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
 }
 .ant-checkbox-disabled.ant-checkbox-checked:hover .ant-checkbox-inner {
@@ -8988,7 +8882,6 @@ textarea.ant-input-number {
   line-height: 40px;
   content: "\E611";
   vertical-align: middle;
-  -webkit-transition: -webkit-transform 0.24s ease;
   transition: -webkit-transform 0.24s ease;
   transition: transform 0.24s ease;
   transition: transform 0.24s ease, -webkit-transform 0.24s ease;
@@ -9012,7 +8905,6 @@ textarea.ant-input-number {
   content: "\E611";
 }
 .ant-collapse-anim-active {
-  -webkit-transition: height 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: height 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .ant-collapse-content {
@@ -9109,7 +9001,6 @@ textarea.ant-input-number {
   cursor: pointer;
   border-top: 4px solid #fff;
   border-bottom: 4px solid #fff;
-  -webkit-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease;
 }
 .ant-slider-track {
@@ -9119,7 +9010,6 @@ textarea.ant-input-number {
   border-radius: 6px;
   background-color: #abe2fb;
   z-index: 1;
-  -webkit-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease;
 }
 .ant-slider:hover {
@@ -9142,7 +9032,6 @@ textarea.ant-input-number {
   border: solid 2px #96dbfa;
   background-color: #fff;
   z-index: 2;
-  -webkit-transition: border-color 0.3s ease;
   transition: border-color 0.3s ease;
 }
 .ant-slider-handle:hover {
@@ -9284,7 +9173,6 @@ textarea.ant-input-number {
   border-radius: 14px;
   border-color: #d9d9d9;
   background-color: #fff;
-  -webkit-transition: all 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
   transition: all 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
 }
 .ant-radio-inner:after {
@@ -9303,7 +9191,6 @@ textarea.ant-input-number {
   -webkit-transform: scale(0);
       -ms-transform: scale(0);
           transform: scale(0);
-  -webkit-transition: all 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
   transition: all 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
 }
 .ant-radio-input {
@@ -9324,7 +9211,6 @@ textarea.ant-input-number {
       -ms-transform: scale(1);
           transform: scale(1);
   opacity: 1;
-  -webkit-transition: all 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
   transition: all 0.2s cubic-bezier(0.78, 0.14, 0.15, 0.86);
 }
 .ant-radio-disabled:hover .ant-radio-inner {
@@ -9351,7 +9237,6 @@ label.ant-radio-button {
   line-height: 26px;
   color: #666;
   display: inline-block;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   cursor: pointer;
   border: 1px solid #d9d9d9;
@@ -9625,7 +9510,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   font-size: 12px;
   margin-right: 4px;
   margin-bottom: 8px;
-  -webkit-transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
   transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
   vertical-align: middle;
   opacity: 0.85;
@@ -9658,7 +9542,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   font-weight: bold;
   margin-left: 3px;
   color: #666;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   opacity: 0.66;
 }
@@ -9786,7 +9669,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
 }
 .ant-alert-close-icon .anticon-cross {
   color: #999;
-  -webkit-transition: color .3s ease;
   transition: color .3s ease;
 }
 .ant-alert-close-icon .anticon-cross:hover {
@@ -9835,7 +9717,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   margin: 0;
   padding-top: 0;
   padding-bottom: 0;
-  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   -webkit-transform-origin: 50% 0;
       -ms-transform-origin: 50% 0;
@@ -9867,7 +9748,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   border-radius: 3px;
   border-color: #d9d9d9;
   background-color: #fff;
-  -webkit-transition: border-color 0.1s cubic-bezier(0.71, -0.46, 0.29, 1.46), background-color 0.1s cubic-bezier(0.71, -0.46, 0.29, 1.46);
   transition: border-color 0.1s cubic-bezier(0.71, -0.46, 0.29, 1.46), background-color 0.1s cubic-bezier(0.71, -0.46, 0.29, 1.46);
 }
 .ant-tree-checkbox-inner:after {
@@ -9884,7 +9764,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   border-top: 0;
   border-left: 0;
   content: ' ';
-  -webkit-transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6);
   transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6);
 }
 .ant-tree-checkbox-input {
@@ -9939,7 +9818,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   border-top: 0;
   border-left: 0;
   content: ' ';
-  -webkit-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
   transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
 }
 .ant-tree-checkbox-disabled.ant-tree-checkbox-checked:hover .ant-tree-checkbox-inner {
@@ -10032,7 +9910,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   text-decoration: none;
   vertical-align: top;
   color: #666;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .ant-tree li a:hover {
@@ -10091,7 +9968,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   top: 0;
   right: 4px;
   color: #666;
-  -webkit-transition: -webkit-transform .3s ease;
   transition: -webkit-transform .3s ease;
   transition: transform .3s ease;
   transition: transform .3s ease, -webkit-transform .3s ease;
@@ -10136,7 +10012,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   top: 0;
   right: 4px;
   color: #666;
-  -webkit-transition: -webkit-transform .3s ease;
   transition: -webkit-transform .3s ease;
   transition: transform .3s ease;
   transition: transform .3s ease, -webkit-transform .3s ease;
@@ -10206,7 +10081,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   border-radius: 3px;
   border-color: #d9d9d9;
   background-color: #fff;
-  -webkit-transition: border-color 0.1s cubic-bezier(0.71, -0.46, 0.29, 1.46), background-color 0.1s cubic-bezier(0.71, -0.46, 0.29, 1.46);
   transition: border-color 0.1s cubic-bezier(0.71, -0.46, 0.29, 1.46), background-color 0.1s cubic-bezier(0.71, -0.46, 0.29, 1.46);
 }
 .ant-select-tree-checkbox-inner:after {
@@ -10223,7 +10097,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   border-top: 0;
   border-left: 0;
   content: ' ';
-  -webkit-transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6);
   transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6);
 }
 .ant-select-tree-checkbox-input {
@@ -10278,7 +10151,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   border-top: 0;
   border-left: 0;
   content: ' ';
-  -webkit-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
   transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
 }
 .ant-select-tree-checkbox-disabled.ant-select-tree-checkbox-checked:hover .ant-select-tree-checkbox-inner {
@@ -10350,7 +10222,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   text-decoration: none;
   vertical-align: top;
   color: #666;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .ant-select-tree li a:hover {
@@ -10409,7 +10280,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   top: 0;
   right: 4px;
   color: #666;
-  -webkit-transition: -webkit-transform .3s ease;
   transition: -webkit-transform .3s ease;
   transition: transform .3s ease;
   transition: transform .3s ease, -webkit-transform .3s ease;
@@ -10454,7 +10324,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   top: 0;
   right: 4px;
   color: #666;
-  -webkit-transition: -webkit-transform .3s ease;
   transition: -webkit-transform .3s ease;
   transition: transform .3s ease;
   transition: transform .3s ease, -webkit-transform .3s ease;
@@ -10723,7 +10592,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   background-color: #fbfbfb;
   text-align: center;
   cursor: pointer;
-  -webkit-transition: border-color 0.3s ease;
   transition: border-color 0.3s ease;
   display: inline-block;
   vertical-align: top;
@@ -10735,7 +10603,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
 }
 .ant-upload.ant-upload-drag {
   border: 1px dashed #d9d9d9;
-  -webkit-transition: border-color 0.3s ease;
   transition: border-color 0.3s ease;
   cursor: pointer;
   border-radius: 6px;
@@ -10776,7 +10643,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
 }
 .ant-upload.ant-upload-drag .anticon-plus {
   font-size: 30px;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   color: #ccc;
 }
@@ -10795,7 +10661,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   height: 22px;
   line-height: 22px;
   padding: 0 4px;
-  -webkit-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease;
 }
 .ant-upload-list-item-info .anticon-paper-clip {
@@ -10813,7 +10678,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   /* IE6-IE8 */
   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=1, M12=0, M21=0, M22=1)";
   zoom: 1;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   opacity: 0;
   cursor: pointer;
@@ -10904,7 +10768,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   white-space: nowrap;
   margin: 0 0 0 8px;
   line-height: 42px;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   padding-left: 48px;
   padding-right: 8px;
@@ -10946,7 +10809,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   position: absolute;
   z-index: 1;
   background-color: #808080;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   opacity: 0;
   width: 100%;
@@ -10958,7 +10820,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   left: 50%;
   top: 50%;
   z-index: 10;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   cursor: pointer;
   font-size: 16px;
@@ -11073,7 +10934,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
 .ant-menu-submenu,
 .ant-menu-submenu-title {
   cursor: pointer;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .ant-menu-submenu .ant-menu-sub {
@@ -11199,7 +11059,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   text-transform: none;
   text-rendering: auto;
   position: absolute;
-  -webkit-transition: -webkit-transform .3s ease;
   transition: -webkit-transform .3s ease;
   transition: transform .3s ease;
   transition: transform .3s ease, -webkit-transform .3s ease;
@@ -11218,7 +11077,6 @@ label.ant-radio-button-disabled.ant-radio-button-checked {
   text-transform: none;
   text-rendering: auto;
   position: absolute;
-  -webkit-transition: -webkit-transform .3s ease;
   transition: -webkit-transform .3s ease;
   transition: transform .3s ease;
   transition: transform .3s ease, -webkit-transform .3s ease;
@@ -11499,7 +11357,6 @@ a -count:active {
 }
 .ant-scroll-number-only {
   display: inline-block;
-  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: -webkit-transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -11602,7 +11459,6 @@ a -count:active {
   opacity: 0;
   position: absolute;
   visibility: hidden;
-  -webkit-transition: opacity 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
   transition: opacity 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
   font-size: 12px;
 }
@@ -11625,7 +11481,6 @@ a -count:active {
   width: 100%;
 }
 .ant-spin-container {
-  -webkit-transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
   transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
 }
 .ant-spin-nested-loading > .ant-spin-container {
@@ -11844,7 +11699,6 @@ a -count:active {
   height: 116px;
   padding: 4px 8px;
   border-top: 2px solid #eee;
-  -webkit-transition: background 0.3s ease;
   transition: background 0.3s ease;
 }
 .ant-fullcalendar-fullscreen .ant-fullcalendar-month:hover,
@@ -11910,7 +11764,6 @@ a -count:active {
   border-radius: 3px;
   border-color: #d9d9d9;
   background-color: #fff;
-  -webkit-transition: border-color 0.1s cubic-bezier(0.71, -0.46, 0.29, 1.46), background-color 0.1s cubic-bezier(0.71, -0.46, 0.29, 1.46);
   transition: border-color 0.1s cubic-bezier(0.71, -0.46, 0.29, 1.46), background-color 0.1s cubic-bezier(0.71, -0.46, 0.29, 1.46);
 }
 .ant-transfer-checkbox-inner:after {
@@ -11927,7 +11780,6 @@ a -count:active {
   border-top: 0;
   border-left: 0;
   content: ' ';
-  -webkit-transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6);
   transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6);
 }
 .ant-transfer-checkbox-input {
@@ -11982,7 +11834,6 @@ a -count:active {
   border-top: 0;
   border-left: 0;
   content: ' ';
-  -webkit-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
   transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
 }
 .ant-transfer-checkbox-disabled.ant-transfer-checkbox-checked:hover .ant-transfer-checkbox-inner {
@@ -12097,7 +11948,6 @@ a -count:active {
   white-space: nowrap;
   text-overflow: ellipsis;
   padding: 7px 16px;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .ant-transfer-list-body ul li:hover {
@@ -12107,7 +11957,6 @@ a -count:active {
 ul li.ant-transfer-list-highlight-enter {
   -webkit-animation: transferHighlightIn 1s ease;
           animation: transferHighlightIn 1s ease;
-  -webkit-transition: none;
   transition: none;
 }
 .ant-transfer-list-body-with-search {
@@ -12199,7 +12048,6 @@ ul li.ant-transfer-list-highlight-enter {
   margin-top: -6px;
   line-height: 12px;
   cursor: pointer;
-  -webkit-transition: color 0.3s ease, opacity 0.15s ease;
   transition: color 0.3s ease, opacity 0.15s ease;
 }
 .ant-cascader-picker-clear:hover {
@@ -12235,7 +12083,6 @@ ul li.ant-transfer-list-highlight-enter {
   font-size: 12px;
 }
 .ant-cascader-picker-arrow:before {
-  -webkit-transition: -webkit-transform 0.2s ease;
   transition: -webkit-transform 0.2s ease;
   transition: transform 0.2s ease;
   transition: transform 0.2s ease, -webkit-transform 0.2s ease;
@@ -12308,7 +12155,6 @@ ul li.ant-transfer-list-highlight-enter {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .ant-cascader-menu-item:hover {

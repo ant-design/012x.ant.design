@@ -1009,17 +1009,17 @@ ReactDOM.render(React.createElement(
     React.createElement(
       _antd.Col,
       { span: "6" },
-      React.createElement(_antd.Input, { id: "largeInput", size: "large", placeholder: "大尺寸" })
+      React.createElement(_antd.Input, { id: "largeInput", size: "large", placeholder: "\u5927\u5C3A\u5BF8" })
     ),
     React.createElement(
       _antd.Col,
       { span: "6" },
-      React.createElement(_antd.Input, { id: "defaultInput", placeholder: "默认尺寸" })
+      React.createElement(_antd.Input, { id: "defaultInput", placeholder: "\u9ED8\u8BA4\u5C3A\u5BF8" })
     ),
     React.createElement(
       _antd.Col,
       { span: "6" },
-      React.createElement(_antd.Input, { id: "smallInput", placeholder: "小尺寸", size: "small" })
+      React.createElement(_antd.Input, { id: "smallInput", placeholder: "\u5C0F\u5C3A\u5BF8", size: "small" })
     )
   )
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Row, Col, Input } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
@@ -1078,15 +1078,15 @@ var Demo = React.createClass({
       React.createElement(
         FormItem,
         {
-          label: '账户：' },
-        React.createElement(_antd.Input, _extends({ placeholder: '请输入账户名'
+          label: '\u8D26\u6237\uFF1A' },
+        React.createElement(_antd.Input, _extends({ placeholder: '\u8BF7\u8F93\u5165\u8D26\u6237\u540D'
         }, getFieldProps('userName')))
       ),
       React.createElement(
         FormItem,
         {
-          label: '密码：' },
-        React.createElement(_antd.Input, _extends({ type: 'password', placeholder: '请输入密码'
+          label: '\u5BC6\u7801\uFF1A' },
+        React.createElement(_antd.Input, _extends({ type: 'password', placeholder: '\u8BF7\u8F93\u5165\u5BC6\u7801'
         }, getFieldProps('password')))
       ),
       React.createElement(
@@ -1096,13 +1096,13 @@ var Demo = React.createClass({
           'label',
           { className: 'ant-checkbox-inline' },
           React.createElement(_antd.Checkbox, getFieldProps('agreement')),
-          '记住我'
+          '\u8BB0\u4F4F\u6211'
         )
       ),
       React.createElement(
         _antd.Button,
         { type: 'primary', htmlType: 'submit' },
-        '登录'
+        '\u767B\u5F55'
       )
     );
   }
@@ -1190,44 +1190,44 @@ var Demo = React.createClass({
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '用户名：' }),
+          label: '\u7528\u6237\u540D\uFF1A' }),
         React.createElement(
           'p',
           { className: 'ant-form-text', id: 'userName', name: 'userName' },
-          '大眼萌 minion'
+          '\u5927\u773C\u840C minion'
         )
       ),
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '密码：' }),
-        React.createElement(_antd.Input, _extends({ type: 'password' }, getFieldProps('pass'), { placeholder: '请输入密码' }))
+          label: '\u5BC6\u7801\uFF1A' }),
+        React.createElement(_antd.Input, _extends({ type: 'password' }, getFieldProps('pass'), { placeholder: '\u8BF7\u8F93\u5165\u5BC6\u7801' }))
       ),
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '您的性别：' }),
+          label: '\u60A8\u7684\u6027\u522B\uFF1A' }),
         React.createElement(
           RadioGroup,
           getFieldProps('gender', { initialValue: 'female' }),
           React.createElement(
             _antd.Radio,
             { value: 'male' },
-            '男的'
+            '\u7537\u7684'
           ),
           React.createElement(
             _antd.Radio,
             { value: 'female' },
-            '女的'
+            '\u5973\u7684'
           )
         )
       ),
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '备注：',
-          help: '随便写点什么' }),
-        React.createElement(_antd.Input, _extends({ type: 'textarea', placeholder: '随便写' }, getFieldProps('remark')))
+          label: '\u5907\u6CE8\uFF1A',
+          help: '\u968F\u4FBF\u5199\u70B9\u4EC0\u4E48' }),
+        React.createElement(_antd.Input, _extends({ type: 'textarea', placeholder: '\u968F\u4FBF\u5199' }, getFieldProps('remark')))
       ),
       React.createElement(
         FormItem,
@@ -1235,19 +1235,19 @@ var Demo = React.createClass({
           label: React.createElement(
             'span',
             null,
-            '卖身华府 ',
+            '\u5356\u8EAB\u534E\u5E9C ',
             React.createElement(
               _antd.Tooltip,
-              { title: '我为秋香' },
+              { title: '\u6211\u4E3A\u79CB\u9999' },
               React.createElement(_antd.Icon, { type: 'question-circle-o' })
             ),
-            ' ：'
+            ' \uFF1A'
           ) }),
         React.createElement(
           'label',
           null,
           React.createElement(_antd.Checkbox, getFieldProps('agreement')),
-          '同意'
+          '\u540C\u610F'
         )
       ),
       React.createElement(
@@ -1256,7 +1256,7 @@ var Demo = React.createClass({
         React.createElement(
           _antd.Button,
           { type: 'primary', htmlType: 'submit' },
-          '确定'
+          '\u786E\u5B9A'
         )
       )
     );
@@ -1358,7 +1358,7 @@ ReactDOM.render(React.createElement(
     FormItem,
     {
       id: "control-input",
-      label: "输入框：",
+      label: "\u8F93\u5165\u6846\uFF1A",
       labelCol: { span: 6 },
       wrapperCol: { span: 14 } },
     React.createElement(_antd.Input, { id: "control-input", placeholder: "Please enter..." })
@@ -1367,7 +1367,7 @@ ReactDOM.render(React.createElement(
     FormItem,
     {
       id: "control-textarea",
-      label: "文本域：",
+      label: "\u6587\u672C\u57DF\uFF1A",
       labelCol: { span: 6 },
       wrapperCol: { span: 14 } },
     React.createElement(_antd.Input, { type: "textarea", id: "control-textarea", rows: "3" })
@@ -1376,7 +1376,7 @@ ReactDOM.render(React.createElement(
     FormItem,
     {
       id: "select",
-      label: "Select 选择器：",
+      label: "Select \u9009\u62E9\u5668\uFF1A",
       labelCol: { span: 6 },
       wrapperCol: { span: 14 } },
     React.createElement(
@@ -1407,57 +1407,57 @@ ReactDOM.render(React.createElement(
   React.createElement(
     FormItem,
     {
-      label: "Checkbox 多选框：",
+      label: "Checkbox \u591A\u9009\u6846\uFF1A",
       labelCol: { span: 6 },
       wrapperCol: { span: 18 } },
     React.createElement(
       "label",
       { className: "ant-checkbox-vertical" },
       React.createElement(_antd.Checkbox, null),
-      "选项一"
+      "\u9009\u9879\u4E00"
     ),
     React.createElement(
       "label",
       { className: "ant-checkbox-vertical" },
       React.createElement(_antd.Checkbox, null),
-      "选项二"
+      "\u9009\u9879\u4E8C"
     ),
     React.createElement(
       "label",
       { className: "ant-checkbox-vertical" },
       React.createElement(_antd.Checkbox, { disabled: true }),
-      "选项三（不可选）"
+      "\u9009\u9879\u4E09\uFF08\u4E0D\u53EF\u9009\uFF09"
     )
   ),
   React.createElement(
     FormItem,
     {
-      label: "Checkbox 多选框：",
+      label: "Checkbox \u591A\u9009\u6846\uFF1A",
       labelCol: { span: 6 },
       wrapperCol: { span: 18 } },
     React.createElement(
       "label",
       { className: "ant-checkbox-inline" },
       React.createElement(_antd.Checkbox, null),
-      "选项一"
+      "\u9009\u9879\u4E00"
     ),
     React.createElement(
       "label",
       { className: "ant-checkbox-inline" },
       React.createElement(_antd.Checkbox, null),
-      "选项二"
+      "\u9009\u9879\u4E8C"
     ),
     React.createElement(
       "label",
       { className: "ant-checkbox-inline" },
       React.createElement(_antd.Checkbox, null),
-      "选项三"
+      "\u9009\u9879\u4E09"
     )
   ),
   React.createElement(
     FormItem,
     {
-      label: "Radio 单选框：",
+      label: "Radio \u5355\u9009\u6846\uFF1A",
       labelCol: { span: 6 },
       wrapperCol: { span: 18 } },
     React.createElement(
@@ -1597,7 +1597,7 @@ ReactDOM.render(React.createElement(
   React.createElement(
     FormItem,
     {
-      label: "标签输入框：",
+      label: "\u6807\u7B7E\u8F93\u5165\u6846\uFF1A",
       labelCol: { span: 6 },
       wrapperCol: { span: 16 } },
     React.createElement(_antd.Input, { addonBefore: "Http://", defaultValue: "mysite.com", id: "site1" })
@@ -1605,7 +1605,7 @@ ReactDOM.render(React.createElement(
   React.createElement(
     FormItem,
     {
-      label: "标签输入框：",
+      label: "\u6807\u7B7E\u8F93\u5165\u6846\uFF1A",
       labelCol: { span: 6 },
       wrapperCol: { span: 16 } },
     React.createElement(_antd.Input, { addonBefore: "Http://", addonAfter: ".com", defaultValue: "mysite", id: "site2" })
@@ -1613,7 +1613,7 @@ ReactDOM.render(React.createElement(
   React.createElement(
     FormItem,
     {
-      label: "select 标签输入框：",
+      label: "select \u6807\u7B7E\u8F93\u5165\u6846\uFF1A",
       labelCol: { span: 6 },
       wrapperCol: { span: 16 } },
     React.createElement(
@@ -1653,7 +1653,7 @@ ReactDOM.render(React.createElement(
   React.createElement(
     FormItem,
     {
-      label: "输入身份证：",
+      label: "\u8F93\u5165\u8EAB\u4EFD\u8BC1\uFF1A",
       labelCol: { span: 6 },
       wrapperCol: { span: 16 } },
     React.createElement(
@@ -1684,7 +1684,7 @@ ReactDOM.render(React.createElement(
   React.createElement(
     FormItem,
     {
-      label: "电话号码：",
+      label: "\u7535\u8BDD\u53F7\u7801\uFF1A",
       labelCol: { span: 6 },
       wrapperCol: { span: 16 } },
     React.createElement(
@@ -1862,7 +1862,7 @@ var Demo = React.createClass({
       React.createElement(
         FormItem,
         {
-          label: 'InputNumber 数字输入框：',
+          label: 'InputNumber \u6570\u5B57\u8F93\u5165\u6846\uFF1A',
           labelCol: { span: 8 },
           wrapperCol: { span: 10 } },
         React.createElement(_antd.InputNumber, _extends({ min: 1, max: 10, style: { width: 100 }
@@ -1870,19 +1870,19 @@ var Demo = React.createClass({
         React.createElement(
           'span',
           { className: 'ant-form-text' },
-          ' 台机器'
+          ' \u53F0\u673A\u5668'
         )
       ),
       React.createElement(
         FormItem,
         {
-          label: '我是标题：',
+          label: '\u6211\u662F\u6807\u9898\uFF1A',
           labelCol: { span: 8 },
           wrapperCol: { span: 10 } },
         React.createElement(
           'p',
           { className: 'ant-form-text', id: 'static', name: 'static' },
-          '唧唧复唧唧木兰当户织呀'
+          '\u5527\u5527\u590D\u5527\u5527\u6728\u5170\u5F53\u6237\u7EC7\u5440'
         ),
         React.createElement(
           'p',
@@ -1890,14 +1890,14 @@ var Demo = React.createClass({
           React.createElement(
             'a',
             { href: '#' },
-            '链接文字'
+            '\u94FE\u63A5\u6587\u5B57'
           )
         )
       ),
       React.createElement(
         FormItem,
         {
-          label: 'Switch 开关：',
+          label: 'Switch \u5F00\u5173\uFF1A',
           labelCol: { span: 8 },
           wrapperCol: { span: 10 },
           required: true },
@@ -1906,7 +1906,7 @@ var Demo = React.createClass({
       React.createElement(
         FormItem,
         {
-          label: 'Slider 滑动输入条：',
+          label: 'Slider \u6ED1\u52A8\u8F93\u5165\u6761\uFF1A',
           labelCol: { span: 8 },
           wrapperCol: { span: 10 },
           required: true },
@@ -1915,7 +1915,7 @@ var Demo = React.createClass({
       React.createElement(
         FormItem,
         {
-          label: 'Select 选择器：',
+          label: 'Select \u9009\u62E9\u5668\uFF1A',
           labelCol: { span: 8 },
           wrapperCol: { span: 16 },
           required: true },
@@ -1948,7 +1948,7 @@ var Demo = React.createClass({
       React.createElement(
         FormItem,
         {
-          label: 'DatePicker 日期选择框：',
+          label: 'DatePicker \u65E5\u671F\u9009\u62E9\u6846\uFF1A',
           labelCol: { span: 8 },
           required: true },
         React.createElement(
@@ -1974,7 +1974,7 @@ var Demo = React.createClass({
       React.createElement(
         FormItem,
         {
-          label: 'TimePicker 时间选择器：',
+          label: 'TimePicker \u65F6\u95F4\u9009\u62E9\u5668\uFF1A',
           labelCol: { span: 8 },
           wrapperCol: { span: 16 },
           required: true },
@@ -1983,7 +1983,7 @@ var Demo = React.createClass({
       React.createElement(
         FormItem,
         {
-          label: '选项：',
+          label: '\u9009\u9879\uFF1A',
           labelCol: { span: 8 } },
         React.createElement(
           RadioGroup,
@@ -1991,27 +1991,27 @@ var Demo = React.createClass({
           React.createElement(
             RadioButton,
             { value: 'a' },
-            '选项一'
+            '\u9009\u9879\u4E00'
           ),
           React.createElement(
             RadioButton,
             { value: 'b' },
-            '选项二'
+            '\u9009\u9879\u4E8C'
           ),
           React.createElement(
             RadioButton,
             { value: 'c' },
-            '选项三'
+            '\u9009\u9879\u4E09'
           )
         )
       ),
       React.createElement(
         FormItem,
         {
-          label: 'logo图：',
+          label: 'logo\u56FE\uFF1A',
           labelCol: { span: 8 },
           wrapperCol: { span: 16 },
-          help: '提示信息要长长长长长长长长长长长长长长' },
+          help: '\u63D0\u793A\u4FE1\u606F\u8981\u957F\u957F\u957F\u957F\u957F\u957F\u957F\u957F\u957F\u957F\u957F\u957F\u957F\u957F' },
         React.createElement(
           _antd.Upload,
           _extends({ name: 'logo', action: '/upload.do', listType: 'picture', onChange: this.handleUpload
@@ -2023,7 +2023,7 @@ var Demo = React.createClass({
             _antd.Button,
             { type: 'ghost' },
             React.createElement(_antd.Icon, { type: 'upload' }),
-            ' 点击上传'
+            ' \u70B9\u51FB\u4E0A\u4F20'
           )
         )
       ),
@@ -2033,7 +2033,7 @@ var Demo = React.createClass({
         React.createElement(
           _antd.Button,
           { type: 'primary', htmlType: 'submit' },
-          '确定'
+          '\u786E\u5B9A'
         )
       )
     );
@@ -2202,68 +2202,68 @@ ReactDOM.render(React.createElement(
   React.createElement(
     FormItem,
     {
-      label: "失败校验：",
+      label: "\u5931\u8D25\u6821\u9A8C\uFF1A",
       labelCol: { span: 5 },
       wrapperCol: { span: 12 },
       validateStatus: "error",
-      help: "请输入数字和字母组合" },
-    React.createElement(_antd.Input, { defaultValue: "无效选择", id: "error" })
+      help: "\u8BF7\u8F93\u5165\u6570\u5B57\u548C\u5B57\u6BCD\u7EC4\u5408" },
+    React.createElement(_antd.Input, { defaultValue: "\u65E0\u6548\u9009\u62E9", id: "error" })
   ),
   React.createElement(
     FormItem,
     {
-      label: "警告校验：",
+      label: "\u8B66\u544A\u6821\u9A8C\uFF1A",
       labelCol: { span: 5 },
       wrapperCol: { span: 12 },
       validateStatus: "warning" },
-    React.createElement(_antd.Input, { defaultValue: "前方高能预警", id: "warning" })
+    React.createElement(_antd.Input, { defaultValue: "\u524D\u65B9\u9AD8\u80FD\u9884\u8B66", id: "warning" })
   ),
   React.createElement(
     FormItem,
     {
-      label: "校验中：",
+      label: "\u6821\u9A8C\u4E2D\uFF1A",
       labelCol: { span: 5 },
       wrapperCol: { span: 12 },
       hasFeedback: true,
       validateStatus: "validating",
-      help: "信息审核中..." },
-    React.createElement(_antd.Input, { defaultValue: "我是被校验的内容", id: "validating" })
+      help: "\u4FE1\u606F\u5BA1\u6838\u4E2D..." },
+    React.createElement(_antd.Input, { defaultValue: "\u6211\u662F\u88AB\u6821\u9A8C\u7684\u5185\u5BB9", id: "validating" })
   ),
   React.createElement(
     FormItem,
     {
-      label: "成功校验：",
+      label: "\u6210\u529F\u6821\u9A8C\uFF1A",
       labelCol: { span: 5 },
       wrapperCol: { span: 12 },
       hasFeedback: true,
       validateStatus: "success" },
-    React.createElement(_antd.Input, { defaultValue: "我是正文", id: "success" })
+    React.createElement(_antd.Input, { defaultValue: "\u6211\u662F\u6B63\u6587", id: "success" })
   ),
   React.createElement(
     FormItem,
     {
-      label: "警告校验：",
+      label: "\u8B66\u544A\u6821\u9A8C\uFF1A",
       labelCol: { span: 5 },
       wrapperCol: { span: 12 },
       hasFeedback: true,
       validateStatus: "warning" },
-    React.createElement(_antd.Input, { defaultValue: "前方高能预警", id: "warning" })
+    React.createElement(_antd.Input, { defaultValue: "\u524D\u65B9\u9AD8\u80FD\u9884\u8B66", id: "warning" })
   ),
   React.createElement(
     FormItem,
     {
-      label: "失败校验：",
+      label: "\u5931\u8D25\u6821\u9A8C\uFF1A",
       labelCol: { span: 5 },
       wrapperCol: { span: 12 },
       hasFeedback: true,
       validateStatus: "error",
-      help: "请输入数字和字母组合" },
-    React.createElement(_antd.Input, { defaultValue: "无效选择", id: "error" })
+      help: "\u8BF7\u8F93\u5165\u6570\u5B57\u548C\u5B57\u6BCD\u7EC4\u5408" },
+    React.createElement(_antd.Input, { defaultValue: "\u65E0\u6548\u9009\u62E9", id: "error" })
   ),
   React.createElement(
     FormItem,
     {
-      label: "Datepicker：",
+      label: "Datepicker\uFF1A",
       labelCol: { span: 5 },
       help: true },
     React.createElement(
@@ -2271,7 +2271,7 @@ ReactDOM.render(React.createElement(
       { span: "6" },
       React.createElement(
         FormItem,
-        { validateStatus: "error", help: "请选择正确日期" },
+        { validateStatus: "error", help: "\u8BF7\u9009\u62E9\u6B63\u786E\u65E5\u671F" },
         React.createElement(_antd.DatePicker, null)
       )
     ),
@@ -2297,7 +2297,7 @@ ReactDOM.render(React.createElement(
   React.createElement(
     FormItem,
     {
-      label: "Datepicker：",
+      label: "Datepicker\uFF1A",
       labelCol: { span: 5 },
       validateStatus: "error",
       help: true },
@@ -2326,7 +2326,7 @@ ReactDOM.render(React.createElement(
       React.createElement(
         "p",
         { className: "ant-form-explain" },
-        "请选择正确日期"
+        "\u8BF7\u9009\u62E9\u6B63\u786E\u65E5\u671F"
       )
     )
   )
@@ -2594,26 +2594,26 @@ ReactDOM.render(React.createElement(
       React.createElement(
         FormItem,
         {
-          label: "搜索名称：",
+          label: "\u641C\u7D22\u540D\u79F0\uFF1A",
           labelCol: { span: 10 },
           wrapperCol: { span: 14 } },
-        React.createElement(_antd.Input, { placeholder: "请输入搜索名称" })
+        React.createElement(_antd.Input, { placeholder: "\u8BF7\u8F93\u5165\u641C\u7D22\u540D\u79F0" })
       ),
       React.createElement(
         FormItem,
         {
-          label: "较长搜索名称：",
+          label: "\u8F83\u957F\u641C\u7D22\u540D\u79F0\uFF1A",
           labelCol: { span: 10 },
           wrapperCol: { span: 14 } },
-        React.createElement(_antd.Input, { placeholder: "请输入搜索名称" })
+        React.createElement(_antd.Input, { placeholder: "\u8BF7\u8F93\u5165\u641C\u7D22\u540D\u79F0" })
       ),
       React.createElement(
         FormItem,
         {
-          label: "搜索名称：",
+          label: "\u641C\u7D22\u540D\u79F0\uFF1A",
           labelCol: { span: 10 },
           wrapperCol: { span: 14 } },
-        React.createElement(_antd.Input, { placeholder: "请输入搜索名称" })
+        React.createElement(_antd.Input, { placeholder: "\u8BF7\u8F93\u5165\u641C\u7D22\u540D\u79F0" })
       )
     ),
     React.createElement(
@@ -2622,26 +2622,26 @@ ReactDOM.render(React.createElement(
       React.createElement(
         FormItem,
         {
-          label: "搜索名称：",
+          label: "\u641C\u7D22\u540D\u79F0\uFF1A",
           labelCol: { span: 10 },
           wrapperCol: { span: 14 } },
-        React.createElement(_antd.Input, { placeholder: "请输入搜索名称" })
+        React.createElement(_antd.Input, { placeholder: "\u8BF7\u8F93\u5165\u641C\u7D22\u540D\u79F0" })
       ),
       React.createElement(
         FormItem,
         {
-          label: "较长搜索名称：",
+          label: "\u8F83\u957F\u641C\u7D22\u540D\u79F0\uFF1A",
           labelCol: { span: 10 },
           wrapperCol: { span: 14 } },
-        React.createElement(_antd.Input, { placeholder: "请输入搜索名称" })
+        React.createElement(_antd.Input, { placeholder: "\u8BF7\u8F93\u5165\u641C\u7D22\u540D\u79F0" })
       ),
       React.createElement(
         FormItem,
         {
-          label: "搜索名称：",
+          label: "\u641C\u7D22\u540D\u79F0\uFF1A",
           labelCol: { span: 10 },
           wrapperCol: { span: 14 } },
-        React.createElement(_antd.Input, { placeholder: "请输入搜索名称" })
+        React.createElement(_antd.Input, { placeholder: "\u8BF7\u8F93\u5165\u641C\u7D22\u540D\u79F0" })
       )
     ),
     React.createElement(
@@ -2650,26 +2650,26 @@ ReactDOM.render(React.createElement(
       React.createElement(
         FormItem,
         {
-          label: "搜索名称：",
+          label: "\u641C\u7D22\u540D\u79F0\uFF1A",
           labelCol: { span: 10 },
           wrapperCol: { span: 14 } },
-        React.createElement(_antd.Input, { placeholder: "请输入搜索名称" })
+        React.createElement(_antd.Input, { placeholder: "\u8BF7\u8F93\u5165\u641C\u7D22\u540D\u79F0" })
       ),
       React.createElement(
         FormItem,
         {
-          label: "较长搜索名称：",
+          label: "\u8F83\u957F\u641C\u7D22\u540D\u79F0\uFF1A",
           labelCol: { span: 10 },
           wrapperCol: { span: 14 } },
-        React.createElement(_antd.Input, { placeholder: "请输入搜索名称" })
+        React.createElement(_antd.Input, { placeholder: "\u8BF7\u8F93\u5165\u641C\u7D22\u540D\u79F0" })
       ),
       React.createElement(
         FormItem,
         {
-          label: "搜索名称：",
+          label: "\u641C\u7D22\u540D\u79F0\uFF1A",
           labelCol: { span: 10 },
           wrapperCol: { span: 14 } },
-        React.createElement(_antd.Input, { placeholder: "请输入搜索名称" })
+        React.createElement(_antd.Input, { placeholder: "\u8BF7\u8F93\u5165\u641C\u7D22\u540D\u79F0" })
       )
     )
   ),
@@ -2682,12 +2682,12 @@ ReactDOM.render(React.createElement(
       React.createElement(
         _antd.Button,
         { type: "primary", htmlType: "submit" },
-        "搜索"
+        "\u641C\u7D22"
       ),
       React.createElement(
         _antd.Button,
         null,
-        "清除条件"
+        "\u6E05\u9664\u6761\u4EF6"
       )
     )
   )
@@ -2861,16 +2861,16 @@ var BasicDemo = function (_React$Component) {
   function BasicDemo() {
     _classCallCheck(this, BasicDemo);
 
-    return _possibleConstructorReturn(this, Object.getPrototypeOf(BasicDemo).apply(this, arguments));
+    return _possibleConstructorReturn(this, (BasicDemo.__proto__ || Object.getPrototypeOf(BasicDemo)).apply(this, arguments));
   }
 
   _createClass(BasicDemo, [{
     key: 'getValidateStatus',
     value: function getValidateStatus(field) {
-      var _props$form = this.props.form;
-      var isFieldValidating = _props$form.isFieldValidating;
-      var getFieldError = _props$form.getFieldError;
-      var getFieldValue = _props$form.getFieldValue;
+      var _props$form = this.props.form,
+          isFieldValidating = _props$form.isFieldValidating,
+          getFieldError = _props$form.getFieldError,
+          getFieldValue = _props$form.getFieldValue;
 
 
       if (isFieldValidating(field)) {
@@ -2939,10 +2939,10 @@ var BasicDemo = function (_React$Component) {
   }, {
     key: 'render',
     value: function render() {
-      var _props$form2 = this.props.form;
-      var getFieldProps = _props$form2.getFieldProps;
-      var getFieldError = _props$form2.getFieldError;
-      var isFieldValidating = _props$form2.isFieldValidating;
+      var _props$form2 = this.props.form,
+          getFieldProps = _props$form2.getFieldProps,
+          getFieldError = _props$form2.getFieldError,
+          isFieldValidating = _props$form2.isFieldValidating;
 
       var nameProps = getFieldProps('name', {
         rules: [{ required: true, min: 5, message: '用户名至少为 5 个字符' }, { validator: this.userExists }]
@@ -2981,22 +2981,22 @@ var BasicDemo = function (_React$Component) {
         React.createElement(
           FormItem,
           _extends({}, formItemLayout, {
-            label: '用户名：',
+            label: '\u7528\u6237\u540D\uFF1A',
             hasFeedback: true,
             help: isFieldValidating('name') ? '校验中...' : (getFieldError('name') || []).join(', ') }),
-          React.createElement(_antd.Input, _extends({}, nameProps, { placeholder: '实时校验，输入 JasonWood 看看' }))
+          React.createElement(_antd.Input, _extends({}, nameProps, { placeholder: '\u5B9E\u65F6\u6821\u9A8C\uFF0C\u8F93\u5165 JasonWood \u770B\u770B' }))
         ),
         React.createElement(
           FormItem,
           _extends({}, formItemLayout, {
-            label: '邮箱：',
+            label: '\u90AE\u7BB1\uFF1A',
             hasFeedback: true }),
-          React.createElement(_antd.Input, _extends({}, emailProps, { type: 'email', placeholder: 'onBlur 与 onChange 相结合' }))
+          React.createElement(_antd.Input, _extends({}, emailProps, { type: 'email', placeholder: 'onBlur \u4E0E onChange \u76F8\u7ED3\u5408' }))
         ),
         React.createElement(
           FormItem,
           _extends({}, formItemLayout, {
-            label: '密码：',
+            label: '\u5BC6\u7801\uFF1A',
             hasFeedback: true }),
           React.createElement(_antd.Input, _extends({}, passwdProps, { type: 'password', autoComplete: 'off',
             onContextMenu: noop, onPaste: noop, onCopy: noop, onCut: noop }))
@@ -3004,16 +3004,16 @@ var BasicDemo = function (_React$Component) {
         React.createElement(
           FormItem,
           _extends({}, formItemLayout, {
-            label: '确认密码：',
+            label: '\u786E\u8BA4\u5BC6\u7801\uFF1A',
             hasFeedback: true }),
-          React.createElement(_antd.Input, _extends({}, rePasswdProps, { type: 'password', autoComplete: 'off', placeholder: '两次输入密码保持一致',
+          React.createElement(_antd.Input, _extends({}, rePasswdProps, { type: 'password', autoComplete: 'off', placeholder: '\u4E24\u6B21\u8F93\u5165\u5BC6\u7801\u4FDD\u6301\u4E00\u81F4',
             onContextMenu: noop, onPaste: noop, onCopy: noop, onCut: noop }))
         ),
         React.createElement(
           FormItem,
           _extends({}, formItemLayout, {
-            label: '备注：' }),
-          React.createElement(_antd.Input, _extends({}, textareaProps, { type: 'textarea', placeholder: '随便写', id: 'textarea', name: 'textarea' }))
+            label: '\u5907\u6CE8\uFF1A' }),
+          React.createElement(_antd.Input, _extends({}, textareaProps, { type: 'textarea', placeholder: '\u968F\u4FBF\u5199', id: 'textarea', name: 'textarea' }))
         ),
         React.createElement(
           FormItem,
@@ -3021,13 +3021,13 @@ var BasicDemo = function (_React$Component) {
           React.createElement(
             _antd.Button,
             { type: 'primary', onClick: this.handleSubmit.bind(this) },
-            '确定'
+            '\u786E\u5B9A'
           ),
-          '   ',
+          '\xA0\xA0\xA0',
           React.createElement(
             _antd.Button,
             { type: 'ghost', onClick: this.handleReset.bind(this) },
-            '重置'
+            '\u91CD\u7F6E'
           )
         )
       );
@@ -3313,123 +3313,123 @@ var Demo = React.createClass({
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '国籍：' }),
+          label: '\u56FD\u7C4D\uFF1A' }),
         React.createElement(
           _antd.Select,
-          _extends({}, selectProps, { placeholder: '请选择国家', style: { width: '100%' } }),
+          _extends({}, selectProps, { placeholder: '\u8BF7\u9009\u62E9\u56FD\u5BB6', style: { width: '100%' } }),
           React.createElement(
             Option,
             { value: 'china' },
-            '中国'
+            '\u4E2D\u56FD'
           ),
           React.createElement(
             Option,
             { value: 'use' },
-            '美国'
+            '\u7F8E\u56FD'
           ),
           React.createElement(
             Option,
             { value: 'japan' },
-            '日本'
+            '\u65E5\u672C'
           ),
           React.createElement(
             Option,
             { value: 'korean' },
-            '韩国'
+            '\u97E9\u56FD'
           ),
           React.createElement(
             Option,
             { value: 'Thailand' },
-            '泰国'
+            '\u6CF0\u56FD'
           )
         )
       ),
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '喜欢的颜色：' }),
+          label: '\u559C\u6B22\u7684\u989C\u8272\uFF1A' }),
         React.createElement(
           _antd.Select,
-          _extends({}, multiSelectProps, { multiple: true, placeholder: '请选择颜色', style: { width: '100%' } }),
+          _extends({}, multiSelectProps, { multiple: true, placeholder: '\u8BF7\u9009\u62E9\u989C\u8272', style: { width: '100%' } }),
           React.createElement(
             Option,
             { value: 'red' },
-            '红色'
+            '\u7EA2\u8272'
           ),
           React.createElement(
             Option,
             { value: 'orange' },
-            '橙色'
+            '\u6A59\u8272'
           ),
           React.createElement(
             Option,
             { value: 'yellow' },
-            '黄色'
+            '\u9EC4\u8272'
           ),
           React.createElement(
             Option,
             { value: 'green' },
-            '绿色'
+            '\u7EFF\u8272'
           ),
           React.createElement(
             Option,
             { value: 'blue' },
-            '蓝色'
+            '\u84DD\u8272'
           )
         )
       ),
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '性别：' }),
+          label: '\u6027\u522B\uFF1A' }),
         React.createElement(
           RadioGroup,
           radioProps,
           React.createElement(
             _antd.Radio,
             { value: 'male' },
-            '男'
+            '\u7537'
           ),
           React.createElement(
             _antd.Radio,
             { value: 'female' },
-            '女'
+            '\u5973'
           )
         )
       ),
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '兴趣爱好：' }),
+          label: '\u5174\u8DA3\u7231\u597D\uFF1A' }),
         React.createElement(_antd.Checkbox, getFieldProps('eat', {
           valuePropName: 'checked'
         })),
-        '吃饭饭  ',
+        '\u5403\u996D\u996D \xA0',
         React.createElement(_antd.Checkbox, getFieldProps('sleep', {
           valuePropName: 'checked'
         })),
-        '睡觉觉  ',
+        '\u7761\u89C9\u89C9 \xA0',
         React.createElement(_antd.Checkbox, getFieldProps('beat', {
           valuePropName: 'checked'
         })),
-        '打豆豆  '
+        '\u6253\u8C46\u8C46 \xA0'
       ),
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '生日：' }),
+          label: '\u751F\u65E5\uFF1A' }),
         React.createElement(_antd.DatePicker, birthdayProps)
       ),
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '8~12间的质数：' }),
+          label: '8~12\u95F4\u7684\u8D28\u6570\uFF1A' }),
         React.createElement(_antd.InputNumber, _extends({}, primeNumberProps, { min: 8, max: 12 }))
       ),
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '选择地址：' }),
+          label: '\u9009\u62E9\u5730\u5740\uFF1A' }),
         React.createElement(_antd.Cascader, _extends({}, addressProps, { options: address }))
       ),
       React.createElement(
@@ -3439,13 +3439,13 @@ var Demo = React.createClass({
         React.createElement(
           _antd.Button,
           { type: 'primary', onClick: this.handleSubmit },
-          '确定'
+          '\u786E\u5B9A'
         ),
-        '   ',
+        '\xA0\xA0\xA0',
         React.createElement(
           _antd.Button,
           { type: 'ghost', onClick: this.handleReset },
-          '重置'
+          '\u91CD\u7F6E'
         )
       )
     );
@@ -3790,7 +3790,7 @@ var Demo = React.createClass({
             React.createElement(
               FormItem,
               _extends({}, formItemLayout, {
-                label: '密码：' }),
+                label: '\u5BC6\u7801\uFF1A' }),
               React.createElement(_antd.Input, _extends({}, passProps, { type: 'password',
                 onContextMenu: noop, onPaste: noop, onCopy: noop, onCut: noop,
                 autoComplete: 'off', id: 'pass'
@@ -3812,7 +3812,7 @@ var Demo = React.createClass({
             React.createElement(
               FormItem,
               _extends({}, formItemLayout, {
-                label: '确认密码：' }),
+                label: '\u786E\u8BA4\u5BC6\u7801\uFF1A' }),
               React.createElement(_antd.Input, _extends({}, rePassProps, { type: 'password',
                 onContextMenu: noop, onPaste: noop, onCopy: noop, onCut: noop,
                 autoComplete: 'off', id: 'rePass'
@@ -3837,7 +3837,7 @@ var Demo = React.createClass({
               React.createElement(
                 _antd.Button,
                 { type: 'primary', onClick: this.handleSubmit },
-                '提交'
+                '\u63D0\u4EA4'
               )
             )
           )
@@ -4171,24 +4171,24 @@ var Demo = React.createClass({
       React.createElement(
         _antd.Button,
         { type: "primary", onClick: this.showModal },
-        "点击有惊喜"
+        "\u70B9\u51FB\u6709\u60CA\u559C"
       ),
       React.createElement(
         _antd.Modal,
-        { title: "登录", visible: this.state.visible, onOk: this.handleSubmit, onCancel: this.hideModal },
+        { title: "\u767B\u5F55", visible: this.state.visible, onOk: this.handleSubmit, onCancel: this.hideModal },
         React.createElement(
           _antd.Form,
           { horizontal: true, form: this.props.form },
           React.createElement(
             FormItem,
             _extends({}, formItemLayout, {
-              label: "用户名：" }),
+              label: "\u7528\u6237\u540D\uFF1A" }),
             React.createElement(_antd.Input, _extends({}, getFieldProps('username', {}), { type: "text", autoComplete: "off" }))
           ),
           React.createElement(
             FormItem,
             _extends({}, formItemLayout, {
-              label: "密码：" }),
+              label: "\u5BC6\u7801\uFF1A" }),
             React.createElement(_antd.Input, _extends({}, getFieldProps('password', {}), { type: "password", autoComplete: "off" }))
           )
         )

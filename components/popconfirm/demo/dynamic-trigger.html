@@ -11,9 +11,9 @@ var App = React.createClass({
   getInitialState: function getInitialState() {
     return {
       visible: false,
-      condition: true };
+      condition: true // 是否满足条件，不满足则弹出确认框
+    };
   },
-  // 是否满足条件，不满足则弹出确认框
   changeCondition: function changeCondition(value) {
     this.setState({ condition: value });
   },
@@ -35,8 +35,8 @@ var App = React.createClass({
     if (this.state.condition) {
       this.confirm(); // 直接执行下一步
     } else {
-        this.setState({ visible: visible }); // 进行确认
-      }
+      this.setState({ visible: visible }); // 进行确认
+    }
   },
   render: function render() {
     return React.createElement(
@@ -44,18 +44,18 @@ var App = React.createClass({
       null,
       React.createElement(
         _antd.Popconfirm,
-        { title: '确定要删除这个任务吗？',
+        { title: '\u786E\u5B9A\u8981\u5220\u9664\u8FD9\u4E2A\u4EFB\u52A1\u5417\uFF1F',
           visible: this.state.visible, onVisibleChange: this.handleVisibleChange,
           onConfirm: this.confirm, onCancel: this.cancel },
         React.createElement(
           'a',
           { href: '#' },
-          '删除某任务'
+          '\u5220\u9664\u67D0\u4EFB\u52A1'
         )
       ),
       React.createElement('br', null),
       React.createElement('br', null),
-      '点击是否直接执行：',
+      '\u70B9\u51FB\u662F\u5426\u76F4\u63A5\u6267\u884C\uFF1A',
       React.createElement(_antd.Switch, { defaultChecked: true, onChange: this.changeCondition })
     );
   }

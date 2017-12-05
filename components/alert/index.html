@@ -659,7 +659,7 @@ Alert 警告提示 - Ant Design
 
 var _antd = require("antd");
 
-ReactDOM.render(React.createElement(_antd.Alert, { message: "成功提示的文案", type: "success" }), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Alert } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+ReactDOM.render(React.createElement(_antd.Alert, { message: "\u6210\u529F\u63D0\u793A\u7684\u6587\u6848", type: "success" }), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Alert } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
 
 ReactDOM.render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">Alert</span> <span class="hljs-attribute">message</span>=<span class="hljs-value">"成功提示的文案"</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"success"</span> /&gt;</span>
 , mountNode);</span></code></pre></div>
@@ -688,12 +688,12 @@ var onClose = function onClose(e) {
 ReactDOM.render(React.createElement(
   'div',
   null,
-  React.createElement(_antd.Alert, { message: '警告提示的文案',
+  React.createElement(_antd.Alert, { message: '\u8B66\u544A\u63D0\u793A\u7684\u6587\u6848',
     type: 'warn',
     closable: true,
     onClose: onClose }),
-  React.createElement(_antd.Alert, { message: '错误提示的文案',
-    description: '错误提示的辅助性文字介绍错误提示的辅助性文字介绍错误提示的辅助性文字介绍错误提示的辅助性文字介绍错误提示的辅助性文字介绍错误提示的辅助性文字介绍',
+  React.createElement(_antd.Alert, { message: '\u9519\u8BEF\u63D0\u793A\u7684\u6587\u6848',
+    description: '\u9519\u8BEF\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u9519\u8BEF\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u9519\u8BEF\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u9519\u8BEF\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u9519\u8BEF\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u9519\u8BEF\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD',
     type: 'error',
     closable: true,
     onClose: onClose })
@@ -735,26 +735,26 @@ var _antd = require("antd");
 ReactDOM.render(React.createElement(
   "div",
   null,
-  React.createElement(_antd.Alert, { message: "成功提示的文案", type: "success", showIcon: true }),
-  React.createElement(_antd.Alert, { message: "消息提示的文案", type: "info", showIcon: true }),
-  React.createElement(_antd.Alert, { message: "警告提示的文案", type: "warn", showIcon: true }),
-  React.createElement(_antd.Alert, { message: "错误提示的文案", type: "error", showIcon: true }),
-  React.createElement(_antd.Alert, { message: "成功提示的文案",
-    description: "成功提示的辅助性文字介绍成功提示的辅助性文字介绍成功提示的辅助性文字介绍成功提示的辅助性文字介绍",
+  React.createElement(_antd.Alert, { message: "\u6210\u529F\u63D0\u793A\u7684\u6587\u6848", type: "success", showIcon: true }),
+  React.createElement(_antd.Alert, { message: "\u6D88\u606F\u63D0\u793A\u7684\u6587\u6848", type: "info", showIcon: true }),
+  React.createElement(_antd.Alert, { message: "\u8B66\u544A\u63D0\u793A\u7684\u6587\u6848", type: "warn", showIcon: true }),
+  React.createElement(_antd.Alert, { message: "\u9519\u8BEF\u63D0\u793A\u7684\u6587\u6848", type: "error", showIcon: true }),
+  React.createElement(_antd.Alert, { message: "\u6210\u529F\u63D0\u793A\u7684\u6587\u6848",
+    description: "\u6210\u529F\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u6210\u529F\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u6210\u529F\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u6210\u529F\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD",
     type: "success",
     showIcon: true }),
-  React.createElement(_antd.Alert, { message: "消息提示的文案",
-    description: "消息提示的辅助性文字介绍消息提示的辅助性文字介绍消息提示的辅助性文字介绍",
+  React.createElement(_antd.Alert, { message: "\u6D88\u606F\u63D0\u793A\u7684\u6587\u6848",
+    description: "\u6D88\u606F\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u6D88\u606F\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u6D88\u606F\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD",
     type: "info",
     showIcon: true }),
   React.createElement(_antd.Alert, {
-    message: "警告提示的文案",
-    description: "警告提示的辅助性文字介绍警告提示的辅助性文字介绍",
+    message: "\u8B66\u544A\u63D0\u793A\u7684\u6587\u6848",
+    description: "\u8B66\u544A\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u8B66\u544A\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD",
     type: "warn",
     showIcon: true }),
   React.createElement(_antd.Alert, {
-    message: "错误提示的文案",
-    description: "错误提示的辅助性文字介绍错误提示的辅助性文字介绍错误提示的辅助性文字介绍错误提示的辅助性文字介绍错误提示的辅助性文字介绍错误提示的辅助性文字介绍",
+    message: "\u9519\u8BEF\u63D0\u793A\u7684\u6587\u6848",
+    description: "\u9519\u8BEF\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u9519\u8BEF\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u9519\u8BEF\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u9519\u8BEF\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u9519\u8BEF\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u9519\u8BEF\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD",
     type: "error",
     showIcon: true })
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Alert } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
@@ -806,10 +806,10 @@ var _antd = require("antd");
 ReactDOM.render(React.createElement(
   "div",
   null,
-  React.createElement(_antd.Alert, { message: "成功提示的文案", type: "success" }),
-  React.createElement(_antd.Alert, { message: "消息提示的文案", type: "info" }),
-  React.createElement(_antd.Alert, { message: "警告提示的文案", type: "warn" }),
-  React.createElement(_antd.Alert, { message: "错误提示的文案", type: "error" })
+  React.createElement(_antd.Alert, { message: "\u6210\u529F\u63D0\u793A\u7684\u6587\u6848", type: "success" }),
+  React.createElement(_antd.Alert, { message: "\u6D88\u606F\u63D0\u793A\u7684\u6587\u6848", type: "info" }),
+  React.createElement(_antd.Alert, { message: "\u8B66\u544A\u63D0\u793A\u7684\u6587\u6848", type: "warn" }),
+  React.createElement(_antd.Alert, { message: "\u9519\u8BEF\u63D0\u793A\u7684\u6587\u6848", type: "error" })
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Alert } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
 
 ReactDOM.render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span>&gt;</span>
@@ -840,19 +840,19 @@ var _antd = require("antd");
 ReactDOM.render(React.createElement(
   "div",
   null,
-  React.createElement(_antd.Alert, { message: "成功提示的文案",
-    description: "成功提示的辅助性文字介绍成功提示的辅助性文字介绍成功提示的辅助性文字介绍成功提示的辅助性文字介绍",
+  React.createElement(_antd.Alert, { message: "\u6210\u529F\u63D0\u793A\u7684\u6587\u6848",
+    description: "\u6210\u529F\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u6210\u529F\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u6210\u529F\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u6210\u529F\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD",
     type: "success" }),
-  React.createElement(_antd.Alert, { message: "消息提示的文案",
-    description: "消息提示的辅助性文字介绍消息提示的辅助性文字介绍消息提示的辅助性文字介绍",
+  React.createElement(_antd.Alert, { message: "\u6D88\u606F\u63D0\u793A\u7684\u6587\u6848",
+    description: "\u6D88\u606F\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u6D88\u606F\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u6D88\u606F\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD",
     type: "info" }),
   React.createElement(_antd.Alert, {
-    message: "警告提示的文案",
-    description: "警告提示的辅助性文字介绍警告提示的辅助性文字介绍",
+    message: "\u8B66\u544A\u63D0\u793A\u7684\u6587\u6848",
+    description: "\u8B66\u544A\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u8B66\u544A\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD",
     type: "warn" }),
   React.createElement(_antd.Alert, {
-    message: "错误提示的文案",
-    description: "错误提示的辅助性文字介绍错误提示的辅助性文字介绍错误提示的辅助性文字介绍错误提示的辅助性文字介绍错误提示的辅助性文字介绍错误提示的辅助性文字介绍",
+    message: "\u9519\u8BEF\u63D0\u793A\u7684\u6587\u6848",
+    description: "\u9519\u8BEF\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u9519\u8BEF\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u9519\u8BEF\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u9519\u8BEF\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u9519\u8BEF\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u9519\u8BEF\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD",
     type: "error" })
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Alert } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
 
@@ -890,7 +890,7 @@ ReactDOM.render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-t
 
 var _antd = require("antd");
 
-ReactDOM.render(React.createElement(_antd.Alert, { message: "消息提示的文案", type: "info", closeText: "不再提醒" }), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Alert } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
+ReactDOM.render(React.createElement(_antd.Alert, { message: "\u6D88\u606F\u63D0\u793A\u7684\u6587\u6848", type: "info", closeText: "\u4E0D\u518D\u63D0\u9192" }), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Alert } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
 
 ReactDOM.render(
 <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">Alert</span> <span class="hljs-attribute">message</span>=<span class="hljs-value">"消息提示的文案"</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"info"</span> <span class="hljs-attribute">closeText</span>=<span class="hljs-value">"不再提醒"</span> /&gt;</span>

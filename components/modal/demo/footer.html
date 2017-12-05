@@ -37,46 +37,46 @@ var Test = React.createClass({
       React.createElement(
         _antd.Button,
         { type: "primary", onClick: this.showModal },
-        "显示对话框"
+        "\u663E\u793A\u5BF9\u8BDD\u6846"
       ),
       React.createElement(
         _antd.Modal,
         { ref: "modal",
           visible: this.state.visible,
-          title: "对话框标题", onOk: this.handleOk, onCancel: this.handleCancel,
+          title: "\u5BF9\u8BDD\u6846\u6807\u9898", onOk: this.handleOk, onCancel: this.handleCancel,
           footer: [React.createElement(
             _antd.Button,
             { key: "back", type: "ghost", size: "large", onClick: this.handleCancel },
-            "返 回"
+            "\u8FD4 \u56DE"
           ), React.createElement(
             _antd.Button,
             { key: "submit", type: "primary", size: "large", loading: this.state.loading, onClick: this.handleOk },
-            "提 交"
+            "\u63D0 \u4EA4"
           )] },
         React.createElement(
           "p",
           null,
-          "对话框的内容"
+          "\u5BF9\u8BDD\u6846\u7684\u5185\u5BB9"
         ),
         React.createElement(
           "p",
           null,
-          "对话框的内容"
+          "\u5BF9\u8BDD\u6846\u7684\u5185\u5BB9"
         ),
         React.createElement(
           "p",
           null,
-          "对话框的内容"
+          "\u5BF9\u8BDD\u6846\u7684\u5185\u5BB9"
         ),
         React.createElement(
           "p",
           null,
-          "对话框的内容"
+          "\u5BF9\u8BDD\u6846\u7684\u5185\u5BB9"
         ),
         React.createElement(
           "p",
           null,
-          "对话框的内容"
+          "\u5BF9\u8BDD\u6846\u7684\u5185\u5BB9"
         )
       )
     );

@@ -822,14 +822,14 @@ var CitySwitcher = React.createClass({
       'span',
       null,
       this.state.text,
-      ' ',
+      '\xA0',
       React.createElement(
         _antd.Cascader,
         { options: options, onChange: this.onChange },
         React.createElement(
           'a',
           { href: '#' },
-          '切换城市'
+          '\u5207\u6362\u57CE\u5E02'
         )
       )
     );

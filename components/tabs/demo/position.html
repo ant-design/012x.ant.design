@@ -26,7 +26,7 @@ var Demo = React.createClass({
       React.createElement(
         'div',
         { style: { marginBottom: 16 } },
-        '页签位置：',
+        '\u9875\u7B7E\u4F4D\u7F6E\uFF1A',
         React.createElement(
           _antd.Select,
           { value: this.state.tabPosition, onChange: this.changeTabPosition,
@@ -58,18 +58,18 @@ var Demo = React.createClass({
         { tabPosition: this.state.tabPosition },
         React.createElement(
           TabPane,
-          { tab: '选项卡一', key: '1' },
-          '选项卡一内容'
+          { tab: '\u9009\u9879\u5361\u4E00', key: '1' },
+          '\u9009\u9879\u5361\u4E00\u5185\u5BB9'
         ),
         React.createElement(
           TabPane,
-          { tab: '选项卡二', key: '2' },
-          '选项卡二内容'
+          { tab: '\u9009\u9879\u5361\u4E8C', key: '2' },
+          '\u9009\u9879\u5361\u4E8C\u5185\u5BB9'
         ),
         React.createElement(
           TabPane,
-          { tab: '选项卡三', key: '3' },
-          '选项卡三内容'
+          { tab: '\u9009\u9879\u5361\u4E09', key: '3' },
+          '\u9009\u9879\u5361\u4E09\u5185\u5BB9'
         )
       )
     );

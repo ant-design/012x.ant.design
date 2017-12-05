@@ -675,22 +675,22 @@ var content = React.createElement(
   React.createElement(
     "p",
     null,
-    "内容"
+    "\u5185\u5BB9"
   ),
   React.createElement(
     "p",
     null,
-    "内容"
+    "\u5185\u5BB9"
   )
 );
 
 ReactDOM.render(React.createElement(
   _antd.Popover,
-  { overlay: content, title: "标题" },
+  { overlay: content, title: "\u6807\u9898" },
   React.createElement(
     _antd.Button,
     { type: "primary" },
-    "弹出卡片"
+    "\u5F39\u51FA\u5361\u7247"
   )
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Popover, Button } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
 
@@ -730,12 +730,12 @@ var content = React.createElement(
   React.createElement(
     "p",
     null,
-    "内容"
+    "\u5185\u5BB9"
   ),
   React.createElement(
     "p",
     null,
-    "内容"
+    "\u5185\u5BB9"
   )
 );
 
@@ -744,29 +744,29 @@ ReactDOM.render(React.createElement(
   null,
   React.createElement(
     _antd.Popover,
-    { overlay: content, title: "标题", trigger: "hover" },
+    { overlay: content, title: "\u6807\u9898", trigger: "hover" },
     React.createElement(
       _antd.Button,
       null,
-      "移入"
+      "\u79FB\u5165"
     )
   ),
   React.createElement(
     _antd.Popover,
-    { overlay: content, title: "标题", trigger: "focus" },
+    { overlay: content, title: "\u6807\u9898", trigger: "focus" },
     React.createElement(
       _antd.Button,
       null,
-      "聚焦"
+      "\u805A\u7126"
     )
   ),
   React.createElement(
     _antd.Popover,
-    { overlay: content, title: "标题", trigger: "click" },
+    { overlay: content, title: "\u6807\u9898", trigger: "click" },
     React.createElement(
       _antd.Button,
       null,
-      "点击"
+      "\u70B9\u51FB"
     )
   )
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Popover, Button } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
@@ -814,7 +814,7 @@ var _antd = require("antd");
 var text = React.createElement(
   "span",
   null,
-  "标题"
+  "\u6807\u9898"
 );
 var content = React.createElement(
   "div",
@@ -822,12 +822,12 @@ var content = React.createElement(
   React.createElement(
     "p",
     null,
-    "内容"
+    "\u5185\u5BB9"
   ),
   React.createElement(
     "p",
     null,
-    "内容"
+    "\u5185\u5BB9"
   )
 );
 
@@ -843,7 +843,7 @@ ReactDOM.render(React.createElement(
       React.createElement(
         _antd.Button,
         null,
-        "上左"
+        "\u4E0A\u5DE6"
       )
     ),
     React.createElement(
@@ -852,7 +852,7 @@ ReactDOM.render(React.createElement(
       React.createElement(
         _antd.Button,
         null,
-        "上边"
+        "\u4E0A\u8FB9"
       )
     ),
     React.createElement(
@@ -861,7 +861,7 @@ ReactDOM.render(React.createElement(
       React.createElement(
         _antd.Button,
         null,
-        "上右"
+        "\u4E0A\u53F3"
       )
     )
   ),
@@ -874,7 +874,7 @@ ReactDOM.render(React.createElement(
       React.createElement(
         _antd.Button,
         null,
-        "左上"
+        "\u5DE6\u4E0A"
       )
     ),
     React.createElement(
@@ -883,7 +883,7 @@ ReactDOM.render(React.createElement(
       React.createElement(
         _antd.Button,
         null,
-        "左边"
+        "\u5DE6\u8FB9"
       )
     ),
     React.createElement(
@@ -892,7 +892,7 @@ ReactDOM.render(React.createElement(
       React.createElement(
         _antd.Button,
         null,
-        "左下"
+        "\u5DE6\u4E0B"
       )
     )
   ),
@@ -905,7 +905,7 @@ ReactDOM.render(React.createElement(
       React.createElement(
         _antd.Button,
         null,
-        "右上"
+        "\u53F3\u4E0A"
       )
     ),
     React.createElement(
@@ -914,7 +914,7 @@ ReactDOM.render(React.createElement(
       React.createElement(
         _antd.Button,
         null,
-        "右边"
+        "\u53F3\u8FB9"
       )
     ),
     React.createElement(
@@ -923,7 +923,7 @@ ReactDOM.render(React.createElement(
       React.createElement(
         _antd.Button,
         null,
-        "右下"
+        "\u53F3\u4E0B"
       )
     )
   ),
@@ -936,7 +936,7 @@ ReactDOM.render(React.createElement(
       React.createElement(
         _antd.Button,
         null,
-        "下左"
+        "\u4E0B\u5DE6"
       )
     ),
     React.createElement(
@@ -945,7 +945,7 @@ ReactDOM.render(React.createElement(
       React.createElement(
         _antd.Button,
         null,
-        "下边"
+        "\u4E0B\u8FB9"
       )
     ),
     React.createElement(
@@ -954,7 +954,7 @@ ReactDOM.render(React.createElement(
       React.createElement(
         _antd.Button,
         null,
-        "下右"
+        "\u4E0B\u53F3"
       )
     )
   )
@@ -1062,17 +1062,17 @@ var App = React.createClass({
       React.createElement(
         "a",
         { onClick: this.hide },
-        "关闭卡片"
+        "\u5173\u95ED\u5361\u7247"
       )
     );
     return React.createElement(
       _antd.Popover,
-      { overlay: content, title: "标题", trigger: "click",
+      { overlay: content, title: "\u6807\u9898", trigger: "click",
         visible: this.state.visible, onVisibleChange: this.handleVisibleChange },
       React.createElement(
         _antd.Button,
         { type: "primary" },
-        "点击弹出卡片"
+        "\u70B9\u51FB\u5F39\u51FA\u5361\u7247"
       )
     );
   }

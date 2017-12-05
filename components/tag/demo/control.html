@@ -26,7 +26,7 @@ var App = React.createClass({
   addTag: function addTag() {
     var tags = [].concat(_toConsumableArray(this.state.tags));
     index += 1;
-    tags.push({ key: index, name: '新标签' + index });
+    tags.push({ key: index, name: '\u65B0\u6807\u7B7E' + index });
     this.setState({ tags: tags });
   },
   render: function render() {
@@ -48,7 +48,7 @@ var App = React.createClass({
         React.createElement(
           _antd.Button,
           { onClick: this.addTag },
-          '添加标签'
+          '\u6DFB\u52A0\u6807\u7B7E'
         )
       )
     );

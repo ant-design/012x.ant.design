@@ -744,8 +744,8 @@ var Card = React.createClass({
     });
   },
   render: function render() {
-    var container = React.createElement(_antd.Alert, { message: "消息提示的文案",
-      description: "消息提示的辅助性文字介绍消息提示的辅助性文字介绍消息提示的辅助性文字介绍",
+    var container = React.createElement(_antd.Alert, { message: "\u6D88\u606F\u63D0\u793A\u7684\u6587\u6848",
+      description: "\u6D88\u606F\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u6D88\u606F\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD\u6D88\u606F\u63D0\u793A\u7684\u8F85\u52A9\u6027\u6587\u5B57\u4ECB\u7ECD",
       type: "info" });
     return React.createElement(
       "div",
@@ -755,7 +755,7 @@ var Card = React.createClass({
         { spining: this.state.loading },
         container
       ),
-      "切换加载状态：",
+      "\u5207\u6362\u52A0\u8F7D\u72B6\u6001\uFF1A",
       React.createElement(_antd.Switch, { checked: this.state.loading, onChange: this.toggle })
     );
   }

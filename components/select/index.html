@@ -880,25 +880,25 @@ ReactDOM.render(React.createElement(
   _antd.Select,
   { showSearch: true,
     style: { width: 200 },
-    placeholder: "请选择人员",
+    placeholder: "\u8BF7\u9009\u62E9\u4EBA\u5458",
     optionFilterProp: "children",
-    notFoundContent: "无法找到",
-    searchPlaceholder: "输入关键词",
+    notFoundContent: "\u65E0\u6CD5\u627E\u5230",
+    searchPlaceholder: "\u8F93\u5165\u5173\u952E\u8BCD",
     onChange: handleChange },
   React.createElement(
     Option,
     { value: "jack" },
-    "杰克"
+    "\u6770\u514B"
   ),
   React.createElement(
     Option,
     { value: "lucy" },
-    "露西"
+    "\u9732\u897F"
   ),
   React.createElement(
     Option,
     { value: "tom" },
-    "汤姆"
+    "\u6C64\u59C6"
   )
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Select } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
 <span class="hljs-keyword">const</span> Option = Select.Option;
@@ -957,7 +957,7 @@ ReactDOM.render(React.createElement(
   _antd.Select,
   { tags: true,
     style: { width: '100%' },
-    searchPlaceholder: '标签模式',
+    searchPlaceholder: '\u6807\u7B7E\u6A21\u5F0F',
     onChange: handleChange },
   children
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Select } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
@@ -1107,17 +1107,15 @@ function fetch(value, callback) {
     });
     (0, _jsonp2.default)('http://suggest.taobao.com/sug?' + str, function (err, d) {
       if (currentValue === value) {
-        (function () {
-          var result = d.result;
-          var data = [];
-          result.forEach(function (r) {
-            data.push({
-              value: r[0],
-              text: r[0]
-            });
+        var result = d.result;
+        var data = [];
+        result.forEach(function (r) {
+          data.push({
+            value: r[0],
+            text: r[0]
           });
-          callback(data);
-        })();
+        });
+        callback(data);
       }
     });
   }
@@ -1537,7 +1535,7 @@ var Test = React.createClass({
         style: { width: 200 },
         onChange: this.handleChange,
         filterOption: false,
-        placeholder: '请输入账户名' },
+        placeholder: '\u8BF7\u8F93\u5165\u8D26\u6237\u540D' },
       this.state.options
     );
   }

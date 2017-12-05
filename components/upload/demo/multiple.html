@@ -14,9 +14,9 @@ var props = {
       console.log(info.file, info.fileList);
     }
     if (info.file.status === 'done') {
-      _antd.message.success(info.file.name + ' 上传成功。');
+      _antd.message.success(info.file.name + ' \u4E0A\u4F20\u6210\u529F\u3002');
     } else if (info.file.status === 'error') {
-      _antd.message.error(info.file.name + ' 上传失败。');
+      _antd.message.error(info.file.name + ' \u4E0A\u4F20\u5931\u8D25\u3002');
     }
   }
 };
@@ -28,7 +28,7 @@ ReactDOM.render(React.createElement(
     _antd.Button,
     { type: 'ghost' },
     React.createElement(_antd.Icon, { type: 'upload' }),
-    ' 点击上传'
+    ' \u70B9\u51FB\u4E0A\u4F20'
   )
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Upload, message, Button, Icon } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
 

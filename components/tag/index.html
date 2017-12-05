@@ -656,17 +656,17 @@ ReactDOM.render(React.createElement(
   React.createElement(
     _antd.Tag,
     null,
-    "标签一"
+    "\u6807\u7B7E\u4E00"
   ),
   React.createElement(
     _antd.Tag,
     null,
-    "标签二"
+    "\u6807\u7B7E\u4E8C"
   ),
   React.createElement(
     _antd.Tag,
     { closable: true, onClose: onClose },
-    "标签三"
+    "\u6807\u7B7E\u4E09"
   ),
   React.createElement(
     _antd.Tag,
@@ -674,7 +674,7 @@ ReactDOM.render(React.createElement(
     React.createElement(
       "a",
       { href: "https://www.alipay.com/", target: "_blank" },
-      "标签四（链接）"
+      "\u6807\u7B7E\u56DB\uFF08\u94FE\u63A5\uFF09"
     )
   )
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Tag } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
@@ -727,7 +727,7 @@ var App = React.createClass({
   addTag: function addTag() {
     var tags = [].concat(_toConsumableArray(this.state.tags));
     index += 1;
-    tags.push({ key: index, name: '新标签' + index });
+    tags.push({ key: index, name: '\u65B0\u6807\u7B7E' + index });
     this.setState({ tags: tags });
   },
   render: function render() {
@@ -749,7 +749,7 @@ var App = React.createClass({
         React.createElement(
           _antd.Button,
           { onClick: this.addTag },
-          '添加标签'
+          '\u6DFB\u52A0\u6807\u7B7E'
         )
       )
     );
@@ -823,22 +823,22 @@ ReactDOM.render(React.createElement(
   React.createElement(
     _antd.Tag,
     { closable: true, color: "blue" },
-    "蓝色"
+    "\u84DD\u8272"
   ),
   React.createElement(
     _antd.Tag,
     { closable: true, color: "green" },
-    "绿色"
+    "\u7EFF\u8272"
   ),
   React.createElement(
     _antd.Tag,
     { closable: true, color: "yellow" },
-    "黄色"
+    "\u9EC4\u8272"
   ),
   React.createElement(
     _antd.Tag,
     { closable: true, color: "red" },
-    "红色"
+    "\u7EA2\u8272"
   )
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Tag } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
 

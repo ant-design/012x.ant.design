@@ -37,7 +37,7 @@ var Test = React.createClass({
         React.createElement(
           _antd.Button,
           { type: "primary", onClick: this.onClick },
-          "切换"
+          "\u5207\u6362"
         )
       ),
       React.createElement(
@@ -45,37 +45,37 @@ var Test = React.createClass({
         { component: _antd.Form, className: "ant-form ant-form-horizontal", type: "bottom", leaveReverse: true },
         this.state.show ? [React.createElement(
           FormItem,
-          _extends({ key: "item1" }, formItemLayout, { label: "用户名：" }),
+          _extends({ key: "item1" }, formItemLayout, { label: "\u7528\u6237\u540D\uFF1A" }),
           React.createElement(
             "p",
             { className: "ant-form-text" },
-            "大眼萌 minion"
+            "\u5927\u773C\u840C minion"
           )
         ), React.createElement(
           FormItem,
-          _extends({ key: "item2" }, formItemLayout, { label: "密码：" }),
-          React.createElement(_antd.Input, { type: "password", placeholder: "请输入密码" })
+          _extends({ key: "item2" }, formItemLayout, { label: "\u5BC6\u7801\uFF1A" }),
+          React.createElement(_antd.Input, { type: "password", placeholder: "\u8BF7\u8F93\u5165\u5BC6\u7801" })
         ), React.createElement(
           FormItem,
-          _extends({ key: "item3" }, formItemLayout, { label: "您的性别：" }),
+          _extends({ key: "item3" }, formItemLayout, { label: "\u60A8\u7684\u6027\u522B\uFF1A" }),
           React.createElement(
             RadioGroup,
             null,
             React.createElement(
               _antd.Radio,
               { value: "male" },
-              "男的"
+              "\u7537\u7684"
             ),
             React.createElement(
               _antd.Radio,
               { value: "female" },
-              "女的"
+              "\u5973\u7684"
             )
           )
         ), React.createElement(
           FormItem,
-          _extends({ key: "item4" }, formItemLayout, { label: "备注：" }),
-          React.createElement(_antd.Input, { type: "textarea", placeholder: "随便写" })
+          _extends({ key: "item4" }, formItemLayout, { label: "\u5907\u6CE8\uFF1A" }),
+          React.createElement(_antd.Input, { type: "textarea", placeholder: "\u968F\u4FBF\u5199" })
         ), React.createElement(
           _antd.Row,
           { key: "submit" },
@@ -85,7 +85,7 @@ var Test = React.createClass({
             React.createElement(
               _antd.Button,
               { type: "primary", htmlType: "submit" },
-              "确定"
+              "\u786E\u5B9A"
             )
           )
         )] : null

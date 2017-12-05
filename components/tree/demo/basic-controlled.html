@@ -38,7 +38,7 @@ generateData(z);
 
 function loopData(data, callback) {
   var loop = function loop(d) {
-    var level = arguments.length <= 1 || arguments[1] === undefined ? 0 : arguments[1];
+    var level = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
 
     d.forEach(function (item, index) {
       var pos = level + '-' + index;

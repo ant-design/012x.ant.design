@@ -789,26 +789,26 @@ var App = React.createClass({
       React.createElement(
         _antd.Button,
         { type: 'primary', onClick: this.showModal },
-        '显示对话框'
+        '\u663E\u793A\u5BF9\u8BDD\u6846'
       ),
       React.createElement(
         _antd.Modal,
-        { title: '第一个 Modal', visible: this.state.visible,
+        { title: '\u7B2C\u4E00\u4E2A Modal', visible: this.state.visible,
           onOk: this.handleOk, onCancel: this.handleCancel },
         React.createElement(
           'p',
           null,
-          '对话框的内容'
+          '\u5BF9\u8BDD\u6846\u7684\u5185\u5BB9'
         ),
         React.createElement(
           'p',
           null,
-          '对话框的内容'
+          '\u5BF9\u8BDD\u6846\u7684\u5185\u5BB9'
         ),
         React.createElement(
           'p',
           null,
-          '对话框的内容'
+          '\u5BF9\u8BDD\u6846\u7684\u5185\u5BB9'
         )
       )
     );
@@ -903,46 +903,46 @@ var Test = React.createClass({
       React.createElement(
         _antd.Button,
         { type: "primary", onClick: this.showModal },
-        "显示对话框"
+        "\u663E\u793A\u5BF9\u8BDD\u6846"
       ),
       React.createElement(
         _antd.Modal,
         { ref: "modal",
           visible: this.state.visible,
-          title: "对话框标题", onOk: this.handleOk, onCancel: this.handleCancel,
+          title: "\u5BF9\u8BDD\u6846\u6807\u9898", onOk: this.handleOk, onCancel: this.handleCancel,
           footer: [React.createElement(
             _antd.Button,
             { key: "back", type: "ghost", size: "large", onClick: this.handleCancel },
-            "返 回"
+            "\u8FD4 \u56DE"
           ), React.createElement(
             _antd.Button,
             { key: "submit", type: "primary", size: "large", loading: this.state.loading, onClick: this.handleOk },
-            "提 交"
+            "\u63D0 \u4EA4"
           )] },
         React.createElement(
           "p",
           null,
-          "对话框的内容"
+          "\u5BF9\u8BDD\u6846\u7684\u5185\u5BB9"
         ),
         React.createElement(
           "p",
           null,
-          "对话框的内容"
+          "\u5BF9\u8BDD\u6846\u7684\u5185\u5BB9"
         ),
         React.createElement(
           "p",
           null,
-          "对话框的内容"
+          "\u5BF9\u8BDD\u6846\u7684\u5185\u5BB9"
         ),
         React.createElement(
           "p",
           null,
-          "对话框的内容"
+          "\u5BF9\u8BDD\u6846\u7684\u5185\u5BB9"
         ),
         React.createElement(
           "p",
           null,
-          "对话框的内容"
+          "\u5BF9\u8BDD\u6846\u7684\u5185\u5BB9"
         )
       )
     );
@@ -1035,7 +1035,7 @@ function showConfirm() {
 ReactDOM.render(React.createElement(
   _antd.Button,
   { onClick: showConfirm },
-  '确认对话框'
+  '\u786E\u8BA4\u5BF9\u8BDD\u6846'
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Modal, Button } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
 <span class="hljs-keyword">const</span> confirm = Modal.confirm;
 
@@ -1258,11 +1258,11 @@ var Test = React.createClass({
       React.createElement(
         _antd.Button,
         { type: 'primary', onClick: this.showModal },
-        '显示对话框'
+        '\u663E\u793A\u5BF9\u8BDD\u6846'
       ),
       React.createElement(
         _antd.Modal,
-        { title: '对话框标题',
+        { title: '\u5BF9\u8BDD\u6846\u6807\u9898',
           visible: this.state.visible,
           onOk: this.handleOk,
           confirmLoading: this.state.confirmLoading,
@@ -1360,7 +1360,7 @@ function showConfirm() {
 ReactDOM.render(React.createElement(
   _antd.Button,
   { onClick: showConfirm },
-  '确认对话框'
+  '\u786E\u8BA4\u5BF9\u8BDD\u6846'
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Modal, Button } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
 <span class="hljs-keyword">const</span> confirm = Modal.confirm;
 
@@ -1406,12 +1406,12 @@ function info() {
       React.createElement(
         'p',
         null,
-        '一些附加信息一些附加信息一些附加信息'
+        '\u4E00\u4E9B\u9644\u52A0\u4FE1\u606F\u4E00\u4E9B\u9644\u52A0\u4FE1\u606F\u4E00\u4E9B\u9644\u52A0\u4FE1\u606F'
       ),
       React.createElement(
         'p',
         null,
-        '一些附加信息一些附加信息一些附加信息'
+        '\u4E00\u4E9B\u9644\u52A0\u4FE1\u606F\u4E00\u4E9B\u9644\u52A0\u4FE1\u606F\u4E00\u4E9B\u9644\u52A0\u4FE1\u606F'
       )
     ),
     onOk: function onOk() {}
@@ -1438,17 +1438,17 @@ ReactDOM.render(React.createElement(
   React.createElement(
     _antd.Button,
     { onClick: info },
-    '信息提示'
+    '\u4FE1\u606F\u63D0\u793A'
   ),
   React.createElement(
     _antd.Button,
     { onClick: success },
-    '成功提示'
+    '\u6210\u529F\u63D0\u793A'
   ),
   React.createElement(
     _antd.Button,
     { onClick: error },
-    '失败提示'
+    '\u5931\u8D25\u63D0\u793A'
   )
 ), mountNode);})()</script><div class="highlight"><pre><code class="javascript"><span class="hljs-keyword">import</span> { Modal, Button } <span class="hljs-keyword">from</span> <span class="hljs-string">'antd'</span>;
 

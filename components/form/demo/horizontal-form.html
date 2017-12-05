@@ -30,44 +30,44 @@ var Demo = React.createClass({
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '用户名：' }),
+          label: '\u7528\u6237\u540D\uFF1A' }),
         React.createElement(
           'p',
           { className: 'ant-form-text', id: 'userName', name: 'userName' },
-          '大眼萌 minion'
+          '\u5927\u773C\u840C minion'
         )
       ),
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '密码：' }),
-        React.createElement(_antd.Input, _extends({ type: 'password' }, getFieldProps('pass'), { placeholder: '请输入密码' }))
+          label: '\u5BC6\u7801\uFF1A' }),
+        React.createElement(_antd.Input, _extends({ type: 'password' }, getFieldProps('pass'), { placeholder: '\u8BF7\u8F93\u5165\u5BC6\u7801' }))
       ),
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '您的性别：' }),
+          label: '\u60A8\u7684\u6027\u522B\uFF1A' }),
         React.createElement(
           RadioGroup,
           getFieldProps('gender', { initialValue: 'female' }),
           React.createElement(
             _antd.Radio,
             { value: 'male' },
-            '男的'
+            '\u7537\u7684'
           ),
           React.createElement(
             _antd.Radio,
             { value: 'female' },
-            '女的'
+            '\u5973\u7684'
           )
         )
       ),
       React.createElement(
         FormItem,
         _extends({}, formItemLayout, {
-          label: '备注：',
-          help: '随便写点什么' }),
-        React.createElement(_antd.Input, _extends({ type: 'textarea', placeholder: '随便写' }, getFieldProps('remark')))
+          label: '\u5907\u6CE8\uFF1A',
+          help: '\u968F\u4FBF\u5199\u70B9\u4EC0\u4E48' }),
+        React.createElement(_antd.Input, _extends({ type: 'textarea', placeholder: '\u968F\u4FBF\u5199' }, getFieldProps('remark')))
       ),
       React.createElement(
         FormItem,
@@ -75,19 +75,19 @@ var Demo = React.createClass({
           label: React.createElement(
             'span',
             null,
-            '卖身华府 ',
+            '\u5356\u8EAB\u534E\u5E9C ',
             React.createElement(
               _antd.Tooltip,
-              { title: '我为秋香' },
+              { title: '\u6211\u4E3A\u79CB\u9999' },
               React.createElement(_antd.Icon, { type: 'question-circle-o' })
             ),
-            ' ：'
+            ' \uFF1A'
           ) }),
         React.createElement(
           'label',
           null,
           React.createElement(_antd.Checkbox, getFieldProps('agreement')),
-          '同意'
+          '\u540C\u610F'
         )
       ),
       React.createElement(
@@ -96,7 +96,7 @@ var Demo = React.createClass({
         React.createElement(
           _antd.Button,
           { type: 'primary', htmlType: 'submit' },
-          '确定'
+          '\u786E\u5B9A'
         )
       )
     );

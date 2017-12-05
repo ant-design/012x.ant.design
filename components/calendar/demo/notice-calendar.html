@@ -32,7 +32,7 @@ function dateCellRender(value) {
         React.createElement(
           'span',
           { className: 'event-' + item.type },
-          '●'
+          '\u25CF'
         ),
         item.content
       );
@@ -59,7 +59,7 @@ function monthCellRender(value) {
     React.createElement(
       'span',
       null,
-      '待办事项数'
+      '\u5F85\u529E\u4E8B\u9879\u6570'
     )
   ) : null;
 }
